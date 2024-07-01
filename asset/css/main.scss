@@ -1,0 +1,35 @@
+// base
+@import "./base/reset";
+
+// helpers
+@import "./helpers/variables";
+@import "./helpers/mixins";
+
+// bootstrap
+@import "./vendors/bootstrap/scss/bootstrap";
+
+// base
+@import "./base/common";
+@import "./base/utilities";
+
+// components
+@import "./components/animations/inview";
+
+@import "./components/images/imageZoom";
+@import "./components/images/imageTrimming";
+
+@import "./components/button/moreButtonV2";
+
+@import "./components/slider/slickCenter02";
+
+// layout
+@import "./layout/header";
+@import "./layout/footer";
+
+// pages
+@import "./pages/index";
+
+// vendors
+@import "/node_modules/@fancyapps/ui/dist/fancybox/fancybox.css";
+@import "/node_modules/slick-slider/slick/slick.css";
+@import "/node_modules/slick-slider/slick/slick-theme.css";

@@ -1,0 +1,40 @@
+@keyframes moveArrow {
+    0% {
+      right: 0.5rem;
+      opacity: 0;
+    }
+    50% {
+      right: 0rem;
+      opacity: 1;
+    }
+    100% {
+      right: -0.5rem;
+      opacity: 0;
+    }
+}
+
+
+.moreButtonV2{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: $black;
+    padding: 0 2rem 0 0;
+    background-color: initial;
+    border: initial;
+    position: relative;
+    .arrowIcon{
+        position: absolute;
+        top: calc(50% - 7px);
+        right: 0;
+    }
+    &:hover{
+        .arrowIcon{
+            animation-name: moveArrow;
+            animation-duration: 0.75s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    }
+}
