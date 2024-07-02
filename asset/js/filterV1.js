@@ -31,7 +31,8 @@ const app = Vue.createApp({
     },
     methods: {
         fetchData() {
-            axios.get('./filterV1.json')
+            // axios.get('./filterV1.json')
+            axios.get('./projects.json')
                 .then(response => {
                     this.projects = response.data;
                     this.initFancybox();

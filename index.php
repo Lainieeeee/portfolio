@@ -299,7 +299,6 @@
             </div>
 
         </div>
-
         <!-- indexExpertiseBox -->
         <div class="indexExpertiseBox bg-ivory">
             <div class="container detailInner">
