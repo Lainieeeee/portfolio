@@ -15,12 +15,20 @@
 // components
 @import "./components/animations/inview";
 
+@import "./components/common/pagetopBtn";
+
 @import "./components/images/imageZoom";
 @import "./components/images/imageTrimming";
 
 @import "./components/button/moreButtonV2";
 
 @import "./components/slider/slickCenter02";
+
+@import "./components/images/fancyBox";
+
+@import "./components/vue3/filterV1";
+
+@import "./components/bg/GeometricBg";
 
 // layout
 @import "./layout/header";

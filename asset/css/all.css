@@ -13396,7 +13396,7 @@ mark, .mark {
 }
 .slickCenter02 .arrowBtn {
   position: absolute;
-  top: calc(50% - 1rem);
+  top: calc(50% - 0rem);
   z-index: 1;
   cursor: pointer;
 }
@@ -14214,15 +14214,15 @@ mark, .mark {
 
 @keyframes moveArrow {
   0% {
-    right: 0.5rem;
+    right: 2.5rem;
     opacity: 0;
   }
   50% {
-    right: 0rem;
+    right: 2rem;
     opacity: 1;
   }
   100% {
-    right: -0.5rem;
+    right: 1.5rem;
     opacity: 0;
   }
 }
@@ -14231,16 +14231,17 @@ mark, .mark {
   align-items: center;
   text-decoration: none;
   font-weight: 500;
-  color: #212529;
-  padding: 0 2rem 0 0;
-  background-color: initial;
+  background-color: #212529;
+  color: #EDEBDA;
+  padding: 1rem 5rem 1rem 2rem;
   border: initial;
   position: relative;
+  border-radius: 0.3em;
 }
 .moreButtonV2 .arrowIcon {
   position: absolute;
   top: calc(50% - 7px);
-  right: 0;
+  right: 2rem;
 }
 .moreButtonV2:hover .arrowIcon {
   animation-name: moveArrow;

@@ -10,16 +10,19 @@
         include 'layouts/header.php';
     ?>
 
-    <!-- mainVisual -->
-    <!-- <div class="mainVisual">
-        <img src="https://placehold.jp/30/ddd/fff/820x600.png?text=mainVisual" alt="mainvisual">
-    </div> -->
-
+    <!-- GeometricBg -->
     <div class="GeometricBg overflow-hidden bg-ivory">
-        <div class="GeometricBgInner container detailInner text-end inview fadeinUp">
-            <h1 class="text-orange display-1 fw-bold mb-2">My Portfolio Design</h1>
-            <p class="text-orange fs-1 fw-bold mb-5">tahnk you four watching my portfolio!</p>
-            <img src="https://placehold.jp/350x150.png" alt="">
+        <div class="GeometricBgInner container detailInner row m-auto align-items-center inview fadeinUp">
+            <div class="col-10 col-lg-5 col-xl-6 m-auto">
+                <img src="/asset/images/index/banner01.webp" alt="mockup image" loading="lazy">
+            </div>
+            <div class="col-lg-7 col-xl-6 text-center text-md-end mt-5 mt-md-0">
+                <h1 class="text-orange fw-bold mb-2">Welcome!<br>This is YU-LIN's portfolio.</h1>
+                <p class="text-orange fs-2 fw-bold mb-5">
+                    ポートフォリオを閲覧していただき、ありがとうございます。<br>
+                    感謝您瀏覽我的作品集。
+                </p>
+            </div>
         </div>
     </div>
 
@@ -30,7 +33,7 @@
         <div class="indexAboutBox container detailInner">
 
             <!-- titleBox -->
-            <div class="titleBox mb-5 text-center fw-bold text-orange inview fadeinUp">
+            <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
                 <p class="fs-3">私について</p>
                 <h2 class="display-2 fw-bold">ABOUT</h2>
             </div>
@@ -69,16 +72,19 @@
         <div class="indexExperienceBox bg-ivory">
             <div class="container detailInner row m-auto justify-content-lg-between">
 
-                <div class="col-xl-5 col-xxl-3 text-center pe-0 pe-lg-5 mb-5 mb-lg-0 inview fadeinLeft">
+                <div class="col-xl-5 col-xxl-3 text-center pe-0 pe-lg-5 mb-5 mb-xl-0 inview fadeinLeft">
                     <!-- titleBox -->
                     <div class="titleBox mb-5 fw-bold text-orange">
                         <p class="fs-3">職務経歴</p>
                         <h2 class="display-2 fw-bold">EXPERIENCE</h2>
                     </div>
-                    <div class="col-6 col-xl-12 m-auto">
-                        <div class="imageTrimmingVertical text-start">
-                            <img src="/asset/images/index/img01.webp" alt="">
-                        </div>
+                    <div class="col-10 col-xl-12 m-auto">
+                        <picture>
+                            <!-- tablet 〜1200px -->
+                            <source srcset="/asset/images/index/img01-sp.webp" media="(max-width: 1200px)" loading="lazy">
+                            <!-- desktop 1200px〜 -->
+                            <img src="/asset/images/index/img01-pc.webp" alt="Experience image" loading="lazy">
+                        </picture>
                     </div>
                 </div>
 
@@ -134,30 +140,160 @@
         <div class="indexProductsBox container detailInner">
 
             <!-- titleBox -->
-            <div class="titleBox mb-5 text-center fw-bold text-orange inview fadeinUp">
+            <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
                 <p class="fs-3">作品一覧</p>
                 <h2 class="display-2 fw-bold">PROJECTS</h2>
             </div>
 
             <!-- slickCenter02 -->
             <div class="slickCenter02 inview fadeinUp">
-                <div>
-                    <img src="https://placehold.jp/30/ddd/fff/500x400.png?text=Slider01" alt="">
+
+                <div class="projectItem">
+                    <!-- projectName -->
+                    <p class="projectName fs-2 fw-bold text-orange mb-2">壹然 evernature</p>
+                    <!-- projectCategories -->
+                    <ul class="projectCategories mb-3">
+                        <li class="category">category01</li>
+                        <li class="category">category02</li>
+                    </ul>
+                    <!-- fancyBox projectImages -->
+                    <div class="fancyBox imageZoomHorizontal projectImages" id="gallery1">
+                        <a data-fancybox="gallery1" href="/asset/images/products/2024/evernature02/pc/index.webp" data-caption="">
+                            <div class="img">
+                                <img src="/asset/images/products/2024/evernature02/pc/index.webp" width="" height="" alt="">
+                            </div>
+                        </a>
+                        <div style="display:none">
+                            <a data-fancybox="gallery1" href="https://lipsum.app/id/61/1600x1200" data-caption="">
+                                <img src="https://lipsum.app/id/61/1600x1200">
+                            </a>
+                            <a data-fancybox="gallery1" href="https://lipsum.app/id/62/1600x1200">
+                                <img src="https://lipsum.app/id/62/1600x1200">
+                            </a>
+                            <a data-fancybox="gallery1" href="https://lipsum.app/id/63/1600x1200">
+                                <img src="https://lipsum.app/id/63/1600x1200">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- projectUrl -->
+                    <p class="projectUrl mt-3 text-end">
+                        <a href="https://evernature-ys.com.tw/" target="_blank">
+                            サイトを見る
+                            <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
+                        </a>
+                    </p>
                 </div>
-                <div>
-                    <img src="https://placehold.jp/30/ddd/fff/500x400.png?text=Slider02" alt="">
+                <div class="projectItem">
+                    <!-- projectName -->
+                    <p class="projectName fs-2 fw-bold text-orange mb-2">福樓 Fu Lou Restaurant</p>
+                    <!-- projectCategories -->
+                    <ul class="projectCategories mb-3">
+                        <li class="category">category01</li>
+                        <li class="category">category02</li>
+                    </ul>
+                    <!-- fancyBox projectImages -->
+                    <div class="fancyBox imageZoomHorizontal projectImages" id="gallery2">
+                        <a data-fancybox="gallery2" href="/asset/images/products/2023/fulou/pc/index.webp" data-caption="">
+                            <div class="img">
+                                <img src="/asset/images/products/2023/fulou/pc/index.webp" width="" height="" alt="">
+                            </div>
+                        </a>
+                        <div style="display:none">
+                            <a data-fancybox="gallery2" href="https://lipsum.app/id/61/1600x1200" data-caption="">
+                                <img src="https://lipsum.app/id/61/1600x1200">
+                            </a>
+                            <a data-fancybox="gallery2" href="https://lipsum.app/id/62/1600x1200">
+                                <img src="https://lipsum.app/id/62/1600x1200">
+                            </a>
+                            <a data-fancybox="gallery2" href="https://lipsum.app/id/63/1600x1200">
+                                <img src="https://lipsum.app/id/63/1600x1200">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- projectUrl -->
+                    <p class="projectUrl mt-3 text-end">
+                        <a href="https://fulou.com.tw/" target="_blank">
+                            サイトを見る
+                            <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
+                        </a>
+                    </p>
                 </div>
-                <div>
-                    <img src="https://placehold.jp/30/ddd/fff/500x400.png?text=Slider03" alt="">
+                <div class="projectItem">
+                    <!-- projectName -->
+                    <p class="projectName fs-2 fw-bold text-orange mb-2">小貸先生 MR. DAI</p>
+                    <!-- projectCategories -->
+                    <ul class="projectCategories mb-3">
+                        <li class="category">category01</li>
+                        <li class="category">category02</li>
+                    </ul>
+                    <!-- fancyBox projectImages -->
+                    <div class="fancyBox imageZoomHorizontal projectImages" id="gallery3">
+                        <a data-fancybox="gallery3" href="/asset/images/products/2023/mr-dai/pc/index.webp" data-caption="">
+                            <div class="img">
+                                <img src="/asset/images/products/2023/mr-dai/pc/index.webp" width="" height="" alt="">
+                            </div>
+                        </a>
+                        <div style="display:none">
+                            <a data-fancybox="gallery3" href="https://lipsum.app/id/61/1600x1200" data-caption="">
+                                <img src="https://lipsum.app/id/61/1600x1200">
+                            </a>
+                            <a data-fancybox="gallery3" href="https://lipsum.app/id/62/1600x1200">
+                                <img src="https://lipsum.app/id/62/1600x1200">
+                            </a>
+                            <a data-fancybox="gallery3" href="https://lipsum.app/id/63/1600x1200">
+                                <img src="https://lipsum.app/id/63/1600x1200">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- projectUrl -->
+                    <p class="projectUrl mt-3 text-end">
+                        <a href="https://mrdailoan.com/" target="_blank">
+                            サイトを見る
+                            <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
+                        </a>
+                    </p>
                 </div>
-                <div>
-                    <img src="https://placehold.jp/30/ddd/fff/500x400.png?text=Slider04" alt="">
+                <div class="projectItem">
+                    <!-- projectName -->
+                    <p class="projectName fs-2 fw-bold text-orange mb-2">客製小姐</p>
+                    <!-- projectCategories -->
+                    <ul class="projectCategories mb-3">
+                        <li class="category">category01</li>
+                        <li class="category">category02</li>
+                    </ul>
+                    <!-- fancyBox projectImages -->
+                    <div class="fancyBox imageZoomHorizontal projectImages" id="gallery4">
+                        <a data-fancybox="gallery4" href="/asset/images/products/2024/custom-miss/pc/index.webp" data-caption="">
+                            <div class="img">
+                                <img src="/asset/images/products/2024/custom-miss/pc/index.webp" width="" height="" alt="">
+                            </div>
+                        </a>
+                        <div style="display:none">
+                            <a data-fancybox="gallery4" href="https://lipsum.app/id/61/1600x1200" data-caption="">
+                                <img src="https://lipsum.app/id/61/1600x1200">
+                            </a>
+                            <a data-fancybox="gallery4" href="https://lipsum.app/id/62/1600x1200">
+                                <img src="https://lipsum.app/id/62/1600x1200">
+                            </a>
+                            <a data-fancybox="gallery4" href="https://lipsum.app/id/63/1600x1200">
+                                <img src="https://lipsum.app/id/63/1600x1200">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- projectUrl -->
+                    <p class="projectUrl mt-3 text-end">
+                        <a href="https://demo-c.wagikgdemo.com.tw/" target="_blank">
+                            サイトを見る
+                            <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
+                        </a>
+                    </p>
                 </div>
+
             </div>
 
             <div class="text-center mt-5 inview fadeinUp">
                 <a href="projects.php" class="moreButtonV2 fw-bold">
-                    <span class="fs-2">ALL PRODUCTS</span>
+                    <span class="fs-2">作品一覧へ</span>
                     <i class="fa-solid fa-arrow-right ms-3 arrowIcon"></i>
                 </a>
             </div>
@@ -169,7 +305,7 @@
             <div class="container detailInner">
 
             <!-- titleBox -->
-            <div class="titleBox mb-5 text-center fw-bold text-orange inview fadeinUp">
+            <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
                 <p class="fs-3">専門知識</p>
                 <h2 class="display-2 fw-bold">Expertise</h2>
             </div>
@@ -227,7 +363,7 @@
 
             <div class="text-center mt-5 inview fadeinUp">
                 <a href="expertise.php" class="moreButtonV2 fw-bold">
-                    <span class="fs-2">View More</span>
+                    <span class="fs-2">詳細を見る</span>
                     <i class="fa-solid fa-arrow-right ms-3 arrowIcon"></i>
                 </a>
             </div>
@@ -235,53 +371,21 @@
             </div>
         </div>
 
-
     </main>
     
+    <!-- pagetopBtn -->
+    <?php include 'layouts/pagetop.php'; ?>
+
     <!-- footer -->
     <?php include 'layouts/footer.php'; ?>
 
     <script src="/asset/js/slickCenter02.js"></script>
     <script src="/node_modules/jquery-match-height/dist/jquery.matchHeight-min.js"></script>
     <script src="/asset/js/fixHeight.js"></script>
+    <script src="/node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/asset/js/fancyBox.js"></script>
     <script src="/asset/js/vendors/jquery.particleground.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.GeometricBg').particleground({
-                dotColor: '#DB5331',
-                lineColor: '#DB5331'
-            });
-        });
-    </script>
-    <style>
-        .GeometricBg {
-            position: relative;
-            width: 100%;
-            z-index: 0;
-        }
-        .GeometricBg .pg-canvas{
-            position: absolute;
-            inset: 0;
-            margin: auto;
-            opacity: 0.3;
-        }
-        .GeometricBgInner {
-            position: relative;
-            z-index: 2;
-        }
-        
-        .GeometricBg:after{
-            content:"";
-            position: absolute;
-            display: inline-block;
-            background: linear-gradient(0deg, #FBFBF6 20%, rgba(237,235,218,0) 100%);
-            width: 100%;
-            height: 30%;
-            bottom: 0;
-            left: 0;
-            z-index: 1;
-        }
-    </style>
+    <script src="/asset/js/GeometricBg.js"></script>
     
 </body>
 </html>

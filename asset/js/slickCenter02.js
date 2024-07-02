@@ -1,14 +1,14 @@
 $('.slickCenter02').slick({
-    // autoplay: true, // ループ
-    // speed: 1000, // スライドのスピード
-    // autoplaySpeed: 4000, // スライドが切り替わる間の秒数
+    autoplay: true, // ループ
+    speed: 1000, // スライドのスピード
+    autoplaySpeed: 4000, // スライドが切り替わる間の秒数
 
      // ページネーション
     dots: false,
 
     // 矢印ボタン
-    prevArrow: '<span class="arrowBtn prev"><i class="fa-solid fa-chevron-left fs-2 text-warning"></i></span>',
-    nextArrow: '<span class="arrowBtn next"><i class="fa-solid fa-chevron-right fs-2 text-warning"></i></span>',
+    prevArrow: '<span class="arrowBtn prev"><i class="fa-solid fa-chevron-left fs-1 text-orange"></i></span>',
+    nextArrow: '<span class="arrowBtn next"><i class="fa-solid fa-chevron-right fs-1 text-orange"></i></span>',
 
     // 表示させるスライド数
     slidesToShow: 3,

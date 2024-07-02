@@ -12871,6 +12871,25 @@ inview
 /*====================================================
 767.98px以下
 ====================================================*/
+.pagetopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 2;
+}
+.pagetopBtn a img {
+  width: 50px;
+}
+
+/*====================================================
+767.98px以下
+====================================================*/
+@media screen and (max-width: 767.98px) {
+  .pagetopBtn a img {
+    width: 40px;
+  }
+}
 .imageZoomSquare a .img, .imageZoomVertical a .img, .imageZoomHorizontal a .img {
   overflow: hidden;
   position: relative;
@@ -12929,15 +12948,15 @@ inview
 
 @keyframes moveArrow {
   0% {
-    right: 0.5rem;
+    right: 2.5rem;
     opacity: 0;
   }
   50% {
-    right: 0rem;
+    right: 2rem;
     opacity: 1;
   }
   100% {
-    right: -0.5rem;
+    right: 1.5rem;
     opacity: 0;
   }
 }
@@ -12946,16 +12965,17 @@ inview
   align-items: center;
   text-decoration: none;
   font-weight: 500;
-  color: #212529;
-  padding: 0 2rem 0 0;
-  background-color: initial;
+  background-color: #212529;
+  color: #EDEBDA;
+  padding: 1rem 5rem 1rem 2rem;
   border: initial;
   position: relative;
+  border-radius: 0.3em;
 }
 .moreButtonV2 .arrowIcon {
   position: absolute;
   top: calc(50% - 7px);
-  right: 0;
+  right: 2rem;
 }
 .moreButtonV2:hover .arrowIcon {
   animation-name: moveArrow;
@@ -12974,7 +12994,7 @@ inview
 }
 .slickCenter02 .arrowBtn {
   position: absolute;
-  top: calc(50% - 1rem);
+  top: calc(50% - 0rem);
   z-index: 1;
   cursor: pointer;
 }
@@ -12996,6 +13016,84 @@ inview
     padding: 0 10px;
   }
 }
+.fancybox__container {
+  z-index: 9999;
+}
+
+.projectItem .imageZoomHorizontal .img {
+  border: 1px solid #DB5331;
+  position: relative;
+}
+.projectItem .imageZoomHorizontal .img img {
+  -o-object-position: top;
+     object-position: top;
+}
+.projectItem .projectCategories {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projectItem .projectCategories .category {
+  background-color: #EDEBDA;
+  line-height: 1;
+  padding: 4px 8px 4px 20px;
+  border-radius: 0.3em;
+  margin: 0.2rem;
+  position: relative;
+  font-size: 1.4rem;
+}
+.projectItem .projectCategories .category:before {
+  content: "#";
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+.projectItem .projectUrl a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.GeometricBg {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+.GeometricBg:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background: linear-gradient(0deg, #FBFBF6 20%, rgba(237, 235, 218, 0) 100%);
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.GeometricBg .pg-canvas {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  opacity: 0.3;
+}
+.GeometricBgInner {
+  position: relative;
+  z-index: 2;
+}
+.GeometricBgInner h1, .GeometricBgInner .h1 {
+  font-size: 4.8rem;
+}
+@media screen and (max-width: 1199.98px) {
+  .GeometricBgInner h1, .GeometricBgInner .h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .GeometricBgInner h1, .GeometricBgInner .h1 {
+    font-size: calc(1.2rem + 3.2vw);
+  }
+}
+
 header {
   z-index: 9999;
 }

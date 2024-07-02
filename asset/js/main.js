@@ -47,3 +47,22 @@ $(function(){
     $(this).toggleClass('active');
   });
 });
+
+// pagetopBtn
+$(function() {
+
+  $(window).scroll(function() {
+
+      var windowWidth = $(window).width();
+      var scrollPosition = $(window).scrollTop();
+
+      if (windowWidth <= 767.89 && scrollPosition > 640) {
+          $('.pagetopBtn').fadeIn();
+      } else if (windowWidth >= 768 && scrollPosition > 1280) {
+          $('.pagetopBtn').fadeIn();
+      } else {
+          $('.pagetopBtn').fadeOut();
+      }
+  });
+
+});
