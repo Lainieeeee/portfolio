@@ -3,7 +3,7 @@ const app = Vue.createApp({
         return {
             projects: [],
             currentPage: 1,
-            itemsPerPage: 3,
+            itemsPerPage: 12,
             currentCategory: 'all'
         };
     },

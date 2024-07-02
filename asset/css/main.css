@@ -13203,4 +13203,22 @@ header .nav-link.active:after, header .nav-link:hover:after {
   .indexExpertiseBox .ExpertiseList .ExpertiseItem:hover:after {
     display: none;
   }
+}
+
+.categoryFilters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.categoryFilters li {
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 8px 15px;
+  border: 1px solid #212529;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.categoryFilters li.active {
+  background-color: #DB5331;
+  color: #EDEBDA;
 }/*# sourceMappingURL=main.css.map */

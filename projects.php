@@ -34,9 +34,9 @@
                 <li v-for="category in uniqueCategories" :key="category"
                     @click="filterProjects(category)" :class="{ 'active': currentCategory === category }">{{ category }}</li>
             </ul>
-            <div class="row m-auto pt-md-5">
+            <div class="row m-auto py-md-5 mb-md-5">
                 <!-- projectItem -->
-                <div v-for="(project, index) in displayedProjects" :key="index" class="projectItem mb-5 inview fadeinUp col-sm-6 col-lg-3 p-3">
+                <div v-for="(project, index) in displayedProjects" :key="index" class="projectItem mb-5 inview fadeinUp col-sm-6 col-lg-4 col-xl-3 p-3">
                     <!-- projectName -->
                     <p class="projectName fs-2 fw-bold text-orange mb-2 firstLine">{{ project.name }}</p>
                     <!-- fancyBox projectImages -->
@@ -105,31 +105,6 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="/asset/js/filterV1.js"></script>
-    
-    <style>
-        .categoryFilters {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-        
-        .categoryFilters li {
-            cursor: pointer;
-            margin-right: 10px;
-            padding: 8px 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        
-        .categoryFilters li.active {
-            background-color: #007bff;
-            color: white;
-            border-color: #007bff;
-        }
-    </style>
     
 </body>
 </html>
