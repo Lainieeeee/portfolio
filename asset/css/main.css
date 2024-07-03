@@ -13212,7 +13212,7 @@ header .nav-link.active:after, header .nav-link:hover:after {
 }
 .categoryFilters li {
   cursor: pointer;
-  margin-right: 10px;
+  margin: 0.4rem;
   padding: 8px 15px;
   border: 1px solid #212529;
   border-radius: 5px;
