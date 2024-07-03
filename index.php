@@ -30,7 +30,7 @@
     <main>
             
         <!-- indexAboutBox -->
-        <div class="indexAboutBox container detailInner">
+        <div class="indexAboutBox container detailInner" id="about">
 
             <!-- titleBox -->
             <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
@@ -69,7 +69,7 @@
         </div>
 
         <!-- indexExperienceBox -->
-        <div class="indexExperienceBox bg-ivory">
+        <div class="indexExperienceBox bg-ivory" id="experience">
             <div class="container detailInner row m-auto justify-content-lg-between">
 
                 <div class="col-xl-5 col-xxl-3 text-center pe-0 pe-lg-5 mb-5 mb-xl-0 inview fadeinLeft">
@@ -300,13 +300,13 @@
 
         </div>
         <!-- indexExpertiseBox -->
-        <div class="indexExpertiseBox bg-ivory">
+        <div class="indexExpertiseBox bg-ivory" id="expertise">
             <div class="container detailInner">
 
             <!-- titleBox -->
             <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
                 <p class="fs-3">専門知識</p>
-                <h2 class="display-2 fw-bold">Expertise</h2>
+                <h2 class="display-2 fw-bold">EXPERTISE</h2>
             </div>
 
             <div class="ExpertiseList text-center row m-auto">

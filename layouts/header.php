@@ -55,17 +55,20 @@
                 <ul class="navbar-nav align-items-center mb-4 mb-lg-0">
                     <?php
                         $currentPage = basename($_SERVER['PHP_SELF']);
-                        if ($currentPage == 'index.php' || $currentPage == 'about.php' || $currentPage == 'expertise.php' || $currentPage == 'projects.php') {
+                        if ($currentPage == 'index.php' || $currentPage == 'projects.php') {
                             // 中文ページの場合
                             echo '
                                 <li class="nav-item pe-lg-5 mt-4 mt-lg-0">
-                                    <a class="nav-link ' . ($currentPage == 'about.php' ? 'active' : '') . '" aria-current="page" href="about.php">About</a>
+                                    <a class="nav-link" aria-current="page" href="/#about">About</a>
                                 </li>
                                 <li class="nav-item pe-lg-5 mt-4 mt-lg-0">
-                                    <a class="nav-link ' . ($currentPage == 'expertise.php' ? 'active' : '') . '" href="expertise.php">Expertise</a>
+                                    <a class="nav-link" href="/#experience">Experience</a>
                                 </li>
                                 <li class="nav-item pe-lg-5 mt-4 mt-lg-0">
                                     <a class="nav-link ' . ($currentPage == 'projects.php' ? 'active' : '') . '" href="projects.php">Projects</a>
+                                </li>
+                                <li class="nav-item pe-lg-5 mt-4 mt-lg-0">
+                                    <a class="nav-link" href="/#expertise">Expertise</a>
                                 </li>
                                 <li class="d-none d-lg-block">
                                     <a href="jp.php" class="bg-orange text-white text-decoration-none p-3 rounded-pill d-flex justify-content-center align-items-center">
@@ -74,17 +77,20 @@
                                     </a>
                                 </li>
                             ';
-                        } elseif ($currentPage == 'jp.php' || $currentPage == 'about-jp.php' || $currentPage == 'expertise-jp.php' || $currentPage == 'projects-jp.php') {
+                        } elseif ($currentPage == 'jp.php' || $currentPage == 'projects-jp.php') {
                             // 日本語ページの場合
                             echo '
                                 <li class="nav-item pe-lg-5 mt-4 mt-lg-0">
-                                    <a class="nav-link ' . ($currentPage == 'about-jp.php' ? 'active' : '') . '" aria-current="page" href="about-jp.php">About</a>
+                                    <a class="nav-link" aria-current="page" href="jp.php#about">About</a>
                                 </li>
                                 <li class="nav-item pe-lg-5 mt-4 mt-lg-0">
-                                    <a class="nav-link ' . ($currentPage == 'expertise-jp.php' ? 'active' : '') . '" href="expertise-jp.php">Expertise</a>
+                                    <a class="nav-link" href="jp.php#experience">Experience</a>
                                 </li>
                                 <li class="nav-item pe-lg-5 mt-4 mt-lg-0">
                                     <a class="nav-link ' . ($currentPage == 'projects-jp.php' ? 'active' : '') . '" href="projects-jp.php">Projects</a>
+                                </li>
+                                <li class="nav-item pe-lg-5 mt-4 mt-lg-0">
+                                    <a class="nav-link" aria-current="page" href="jp.php#expertise">Expertise</a>
                                 </li>
                                 <li class="d-none d-lg-block">
                                     <a href="/" class="bg-orange text-white text-decoration-none p-3 rounded-pill d-flex justify-content-center align-items-center">
