@@ -3,7 +3,7 @@
 <head>
     <?php include 'layouts/head.php'; ?>
 </head>
-<body id="pagetop">
+<body id="pagetop" class="ja">
 
     <!-- header -->
     <?php
@@ -65,7 +65,6 @@
                 </dd>
             </dl>
 
-
         </div>
 
         <!-- indexExperienceBox -->
@@ -89,7 +88,7 @@
                 </div>
 
                 <div class="col-xl-7 col-xxl-8">
-                    <dl class="inview fadeinUp">
+                    <dl class="px-4 inview fadeinUp">
                         <dt>2023/4~</dt>
                         <dd class="mt-2 mb-0">
                             <p>フロントエンジニア</p>
@@ -104,13 +103,13 @@
                             </ul>
                         </dd>
                     </dl>
-                    <dl class="mt-5 inview fadeinUp">
+                    <dl class="mt-4 pt-4 px-4 inview fadeinUp">
                         <dt>2022/11~2023/2</dt>
                         <dd class="mt-2 mb-0">
                             <p>國立高雄師範大學　語学学校で中国語学習</p>
                         </dd>
                     </dl>
-                    <dl class="mt-5 inview fadeinUp">
+                    <dl class="mt-4 pt-4 px-4 inview fadeinUp">
                         <dt>2018/4~2022/10</dt>
                         <dd class="mt-2 mb-0">
                             <p>フロントエンジニア / Webデザイナー</p>
@@ -125,7 +124,7 @@
                             </ul>
                         </dd>
                     </dl>
-                    <dl class="mt-5 inview fadeinUp">
+                    <dl class="mt-4 pt-4 px-4 inview fadeinUp">
                         <dt>2014/4~2018/3</dt>
                         <dd class="mt-2 mb-0">
                             <p>東京工科大学　デザイン学部デザイン学科</p>
@@ -292,80 +291,74 @@
             </div>
 
             <div class="text-center mt-5 inview fadeinUp">
-                <a href="projects.php" class="moreButtonV2 fw-bold">
+                <a href="projects.php" class="moreButtonV2">
                     <span class="fs-2">作品一覧へ</span>
                     <i class="fa-solid fa-arrow-right ms-3 arrowIcon"></i>
                 </a>
             </div>
 
         </div>
+
         <!-- indexExpertiseBox -->
         <div class="indexExpertiseBox bg-ivory" id="expertise">
             <div class="container detailInner">
 
-            <!-- titleBox -->
-            <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
-                <p class="fs-3">専門知識</p>
-                <h2 class="display-2 fw-bold">EXPERTISE</h2>
-            </div>
+                <!-- titleBox -->
+                <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
+                    <p class="fs-3">専門知識</p>
+                    <h2 class="display-2 fw-bold">EXPERTISE</h2>
+                </div>
 
-            <div class="ExpertiseList text-center row m-auto">
-                <div class="ExpertiseItem col-sm-6 col-lg-3 inview fadeinUp">
-                    <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
-                        <dt class="fs-2 mb-3">
-                            <i class="fa-brands fa-js fs-1"></i><br>
-                            JavaScript
-                        </dt>
-                        <dd class="d-inline-block text-start">
-                            <p>jQueryを使ったインタラクティブなエフェクト</p>
-                            <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
-                        </dd>
-                    </dl>
+                <div class="ExpertiseList text-center row m-auto">
+                    <div class="ExpertiseItem col-sm-6 col-lg-3 inview fadeinUp">
+                        <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
+                            <dt class="fs-2 mb-3">
+                                <i class="fa-brands fa-js fs-1"></i><br>
+                                JavaScript
+                            </dt>
+                            <dd class="d-inline-block text-start">
+                                <p>jQueryを使ったインタラクティブなエフェクト</p>
+                                <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-sm-0 inview fadeinUp">
+                        <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
+                            <dt class="fs-2 mb-3">
+                                <i class="fa-solid fa-code fs-1"></i><br>
+                                Web Layout
+                            </dt>
+                            <dd class="d-inline-block text-start">
+                                <p>HTML5、CSS3(SCSS)、Bootstrap 5、レスポンシブデザイン</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-lg-0 inview fadeinUp">
+                        <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
+                            <dt class="fs-2 mb-3">
+                                <i class="fa-solid fa-palette fs-1"></i><br>
+                                Adobe / Figma
+                            </dt>
+                            <dd class="d-inline-block text-start">
+                                <p>Illustratorを使った印刷媒体の制作</p>
+                                <p>potoshopを使ったWeb広告やサイトのデザイン</p>
+                                <p>Figmaを用いたUI/UXデザインをコーディングし、ウェブサイトに実装</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-lg-0 inview fadeinUp">
+                        <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
+                            <dt class="fs-2 mb-3">
+                                <i class="fa-solid fa-circle-plus fs-1"></i><br>
+                                その他
+                            </dt>
+                            <dd class="d-inline-block text-start">
+                                <p>jQueryを使ったインタラクティブなエフェクト</p>
+                                <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
+                            </dd>
+                        </dl>
+                    </div>
                 </div>
-                <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-sm-0 inview fadeinUp">
-                    <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
-                        <dt class="fs-2 mb-3">
-                            <i class="fa-solid fa-code fs-1"></i><br>
-                            Web Layout
-                        </dt>
-                        <dd class="d-inline-block text-start">
-                            <p>HTML5、CSS3(SCSS)、Bootstrap 5、レスポンシブデザイン</p>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-lg-0 inview fadeinUp">
-                    <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
-                        <dt class="fs-2 mb-3">
-                            <i class="fa-solid fa-palette fs-1"></i><br>
-                            Adobe / Figma
-                        </dt>
-                        <dd class="d-inline-block text-start">
-                            <p>Illustratorを使った印刷媒体の制作</p>
-                            <p>potoshopを使ったWeb広告やサイトのデザイン</p>
-                            <p>Figmaを用いたUI/UXデザインをコーディングし、ウェブサイトに実装</p>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-lg-0 inview fadeinUp">
-                    <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
-                        <dt class="fs-2 mb-3">
-                            <i class="fa-solid fa-circle-plus fs-1"></i><br>
-                            その他
-                        </dt>
-                        <dd class="d-inline-block text-start">
-                            <p>jQueryを使ったインタラクティブなエフェクト</p>
-                            <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
-                        </dd>
-                    </dl>
-                </div>
-            </div>
-
-            <div class="text-center mt-5 inview fadeinUp">
-                <a href="expertise.php" class="moreButtonV2 fw-bold">
-                    <span class="fs-2">詳細を見る</span>
-                    <i class="fa-solid fa-arrow-right ms-3 arrowIcon"></i>
-                </a>
-            </div>
 
             </div>
         </div>

@@ -34,37 +34,40 @@
 
             <!-- titleBox -->
             <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
-                <p class="fs-3">私について</p>
+                <p class="fs-3">關於我</p>
                 <h2 class="display-2 fw-bold">ABOUT</h2>
             </div>
 
-            <div class="d-flex justify-content-start align-items-end">
-                <p class="display-1">莊 又霖</p>
-                <p class="ps-3 display-4">CHUANG YU LIN</p>
+            <div class="iconBox col-10 col-xl-8 m-auto">
+                <div class="d-flex justify-content-start align-items-end mb-5 inview fadeinUp">
+                    <p class="display-1">莊 又霖</p>
+                    <p class="ps-3 display-4">CHUANG YU LIN</p>
+                </div>
+                <p class="mb-4 lh-lg inview fadeinUp">
+                    はじめまして、莊と申します。<br>
+                    台湾の高雄市で生まれ、幼少期に日本に移住し、東京工科大学のデザイン学部デザイン学科を卒業後、フロントエンジニアとして計6年の実務経験を積んできました。
+                </p>
+                <p class="mb-4 lh-lg inview fadeinUp">
+                    日本ではWeb制作会社にて4年半、商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、ユーザー体験を重視したWebサイトの設計と開発に従事しました。
+                </p>
+                <p class="mb-4 lh-lg inview fadeinUp">
+                    台湾に帰国後は、高雄師範大学の語学学校で中国語を学び、台湾現地のWeb制作会社で1年3か月の間、ブランドサイトやショッピングサイト、
+                    ランディングページなど複数のプロジェクトを手がけました。
+                    これらの経験を通じて、異文化におけるユーザーのニーズを理解し、対応するスキルを磨きました。
+                </p>
+                <p class="lh-lg inview fadeinUp">
+                    デザインと技術の融合を追求し、ユーザーにとって魅力的で使いやすいWebサイトを作り続けることが私の目標です。どうぞよろしくお願いいたします。
+                </p>
+                <dl class="mt-5 inview fadeinUp">
+                    <dt class="fs-2 mb-2">
+                        <i class="fa-regular fa-comments pe-2"></i>
+                        言語 Language
+                    </dt>
+                    <dd class="fs-3">
+                        日本語、台湾閩南語、中国標準語（HSK5級）
+                    </dd>
+                </dl>
             </div>
-
-            <p>
-                はじめまして。私は莊と申します。<br>
-                私は台湾の高雄市で生まれ、幼少期に日本に移住し、東京工科大学のデザイン学部デザイン学科を卒業後、フロントエンジニアとして計6年の実務経験を積みました。<br>
-                <br>
-                日本ではWeb制作会社にて4年半の間、商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、多岐にわたるプロジェクトに携わりました。特に、ユーザー体験を重視したWebサイトの設計と開発に力を入れてきました。<br>
-                <br>
-                その後、台湾に帰国し、高雄師範大学の語学学校で中国語を学びました。<br>
-                台湾現地のWeb制作会社では1年3か月の間、ブランドサイトやショッピングサイト、ランディングページなど複数のプロジェクトを手がけました。これらの経験を通じて、異文化におけるユーザーのニーズを理解し、対応するスキルを磨きました。<br>
-                <br>
-                デザインと技術の融合を追求し、ユーザーにとって使いやすく魅力的なWebサイトを作り続けることが私の目標です。どうぞよろしくお願いいたします。
-            </p>
-
-            <dl>
-                <dt>
-                    言語 Language
-                    <i class="fa-regular fa-comments ps-2"></i>
-                </dt>
-                <dd>
-                    日本語、台湾語、中国語（HSK5級）
-                </dd>
-            </dl>
-
 
         </div>
 
@@ -75,7 +78,7 @@
                 <div class="col-xl-5 col-xxl-3 text-center pe-0 pe-lg-5 mb-5 mb-xl-0 inview fadeinLeft">
                     <!-- titleBox -->
                     <div class="titleBox mb-5 fw-bold text-orange">
-                        <p class="fs-3">職務経歴</p>
+                        <p class="fs-3">工作經歷</p>
                         <h2 class="display-2 fw-bold">EXPERIENCE</h2>
                     </div>
                     <div class="col-10 col-xl-12 m-auto">
@@ -89,46 +92,66 @@
                 </div>
 
                 <div class="col-xl-7 col-xxl-8">
-                    <dl class="inview fadeinUp">
+                    <dl class="px-4 inview fadeinUp">
                         <dt>2023/4~</dt>
                         <dd class="mt-2 mb-0">
-                            <p>フロントエンジニア</p>
-                            <p>瓦吉科技股份有限公司</p>
+                            <p class="fs-2">前端工程師</p>
+                            <p class="fs-2">瓦吉科技股份有限公司</p>
                             <p class="my-3">
-                                文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章
+                                バックエンドエンジニアと連携し、フロントエンドエンジニアとして新規WEBサイトの開発に従事しました。<br>
+                                ECサイトやコーポレートサイトなど多岐にわたるプロジェクトに携わり、ゼロからのスタートでサイト運営、ページ分析・レポート作成、SEO対策まで一貫して経験しました。
                             </p>
                             <ul class="d-flex justyfy-content-start align-items-center flex-wrap">
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4 me-3">Category</li>
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4 me-3">Category</li>
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4">Category</li>
+                                <li class="text-orange fs-4 me-4">#HTML5</li>
+                                <li class="text-orange fs-4 me-4">#SCSS</li>
+                                <li class="text-orange fs-4 me-4">#JavaScript/Jquery</li>
+                                <li class="text-orange fs-4 me-4">#Vite</li>
+                                <li class="text-orange fs-4 me-4">#Bootstrap</li>
+                                <li class="text-orange fs-4 me-4">#Git/Github</li>
+                                <li class="text-orange fs-4 me-4">#Laravel</li>
+                                <li class="text-orange fs-4 me-4">#Vmwear</li>
+                                <li class="text-orange fs-4 me-4">#Ubuntu</li>
+                                <li class="text-orange fs-4 me-4">#Linux</li>
+                                <li class="text-orange fs-4 me-4">#GA/GTM</li>
+                                <li class="text-orange fs-4 me-4">#Figma</li>
                             </ul>
                         </dd>
                     </dl>
-                    <dl class="mt-5 inview fadeinUp">
+                    <dl class="mt-4 pt-4 px-4 inview fadeinUp">
                         <dt>2022/11~2023/2</dt>
                         <dd class="mt-2 mb-0">
-                            <p>國立高雄師範大學　語学学校で中国語学習</p>
+                            <p>國立高雄師範大學　語言學校學中文</p>
                         </dd>
                     </dl>
-                    <dl class="mt-5 inview fadeinUp">
+                    <dl class="mt-4 pt-4 px-4 inview fadeinUp">
                         <dt>2018/4~2022/10</dt>
                         <dd class="mt-2 mb-0">
-                            <p>フロントエンジニア / Webデザイナー</p>
-                            <p>株式会社あとらす二十一</p>
+                            <p class="fs-2">前端工程師 / 網頁設計師</p>
+                            <p class="fs-2">株式会社あとらす二十一</p>
                             <p class="my-3">
-                                商業施設の新規事業部で.…等の新規開発、生命保険会社の営業デジタル部でソリシター(保険販売員)に向けたwebサイトによる販売業務の支援
+                                商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、顧客先のプロジェクトにてフロントエンド開発に携わりました。<br>
+                                WEBサイトのデザインから構築、さらにチラシ、ポスター、バナーのデザインも行いました。<br>
+                                プロジェクトごとに異なる様々なCMSを使用したことで、柔軟な対応力と広範な知識を身につけました。
                             </p>
                             <ul class="d-flex justyfy-content-start align-items-center flex-wrap">
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4 me-3">Category</li>
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4 me-3">Category</li>
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4">Category</li>
+                                <li class="text-orange fs-4 me-4">#HTML5</li>
+                                <li class="text-orange fs-4 me-4">#SCSS</li>
+                                <li class="text-orange fs-4 me-4">#JavaScript/Jquery</li>
+                                <li class="text-orange fs-4 me-4">#Wordpress(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#楽天RMS(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#Sitecore(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#aishipR(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#イオンサイトdeつく～る(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#Illustrator</li>
+                                <li class="text-orange fs-4 me-4">#Photoshop</li>
+                                <li class="text-orange fs-4 me-4">#XAMPP</li>
                             </ul>
                         </dd>
                     </dl>
-                    <dl class="mt-5 inview fadeinUp">
+                    <dl class="mt-4 pt-4 px-4 inview fadeinUp">
                         <dt>2014/4~2018/3</dt>
                         <dd class="mt-2 mb-0">
-                            <p>東京工科大学　デザイン学部デザイン学科</p>
+                            <p>東京工科大学　設計部設計科</p>
                         </dd>
                     </dl>
                 </div>
@@ -141,7 +164,7 @@
 
             <!-- titleBox -->
             <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
-                <p class="fs-3">作品一覧</p>
+                <p class="fs-3">製作案例</p>
                 <h2 class="display-2 fw-bold">PROJECTS</h2>
             </div>
 
@@ -178,7 +201,7 @@
                     <!-- projectUrl -->
                     <p class="projectUrl mt-3 text-end">
                         <a href="https://evernature-ys.com.tw/" target="_blank">
-                            サイトを見る
+                            連結網址
                             <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
                         </a>
                     </p>
@@ -213,7 +236,7 @@
                     <!-- projectUrl -->
                     <p class="projectUrl mt-3 text-end">
                         <a href="https://fulou.com.tw/" target="_blank">
-                            サイトを見る
+                            連結網址
                             <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
                         </a>
                     </p>
@@ -248,7 +271,7 @@
                     <!-- projectUrl -->
                     <p class="projectUrl mt-3 text-end">
                         <a href="https://mrdailoan.com/" target="_blank">
-                            サイトを見る
+                            連結網址
                             <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
                         </a>
                     </p>
@@ -283,7 +306,7 @@
                     <!-- projectUrl -->
                     <p class="projectUrl mt-3 text-end">
                         <a href="https://demo-c.wagikgdemo.com.tw/" target="_blank">
-                            サイトを見る
+                            連結網址
                             <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
                         </a>
                     </p>
@@ -292,80 +315,74 @@
             </div>
 
             <div class="text-center mt-5 inview fadeinUp">
-                <a href="projects.php" class="moreButtonV2 fw-bold">
-                    <span class="fs-2">作品一覧へ</span>
+                <a href="projects.php" class="moreButtonV2">
+                    <span class="fs-2">瀏覽更多</span>
                     <i class="fa-solid fa-arrow-right ms-3 arrowIcon"></i>
                 </a>
             </div>
 
         </div>
+
         <!-- indexExpertiseBox -->
         <div class="indexExpertiseBox bg-ivory" id="expertise">
             <div class="container detailInner">
 
-            <!-- titleBox -->
-            <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
-                <p class="fs-3">専門知識</p>
-                <h2 class="display-2 fw-bold">EXPERTISE</h2>
-            </div>
+                <!-- titleBox -->
+                <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
+                    <p class="fs-3">專業知識</p>
+                    <h2 class="display-2 fw-bold">EXPERTISE</h2>
+                </div>
 
-            <div class="ExpertiseList text-center row m-auto">
-                <div class="ExpertiseItem col-sm-6 col-lg-3 inview fadeinUp">
-                    <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
-                        <dt class="fs-2 mb-3">
-                            <i class="fa-brands fa-js fs-1"></i><br>
-                            JavaScript
-                        </dt>
-                        <dd class="d-inline-block text-start">
-                            <p>jQueryを使ったインタラクティブなエフェクト</p>
-                            <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
-                        </dd>
-                    </dl>
+                <div class="ExpertiseList text-center row m-auto">
+                    <div class="ExpertiseItem col-sm-6 col-lg-3 inview fadeinUp">
+                        <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
+                            <dt class="fs-2 mb-3">
+                                <i class="fa-brands fa-js fs-1"></i><br>
+                                JavaScript
+                            </dt>
+                            <dd class="d-inline-block text-start">
+                                <p>jQueryを使ったインタラクティブなエフェクト</p>
+                                <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-sm-0 inview fadeinUp">
+                        <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
+                            <dt class="fs-2 mb-3">
+                                <i class="fa-solid fa-code fs-1"></i><br>
+                                Web Layout
+                            </dt>
+                            <dd class="d-inline-block text-start">
+                                <p>HTML5、CSS3(SCSS)、Bootstrap 5、レスポンシブデザイン</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-lg-0 inview fadeinUp">
+                        <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
+                            <dt class="fs-2 mb-3">
+                                <i class="fa-solid fa-palette fs-1"></i><br>
+                                Adobe / Figma
+                            </dt>
+                            <dd class="d-inline-block text-start">
+                                <p>Illustratorを使った印刷媒体の制作</p>
+                                <p>potoshopを使ったWeb広告やサイトのデザイン</p>
+                                <p>Figmaを用いたUI/UXデザインをコーディングし、ウェブサイトに実装</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-lg-0 inview fadeinUp">
+                        <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
+                            <dt class="fs-2 mb-3">
+                                <i class="fa-solid fa-circle-plus fs-1"></i><br>
+                                其他
+                            </dt>
+                            <dd class="d-inline-block text-start">
+                                <p>jQueryを使ったインタラクティブなエフェクト</p>
+                                <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
+                            </dd>
+                        </dl>
+                    </div>
                 </div>
-                <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-sm-0 inview fadeinUp">
-                    <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
-                        <dt class="fs-2 mb-3">
-                            <i class="fa-solid fa-code fs-1"></i><br>
-                            Web Layout
-                        </dt>
-                        <dd class="d-inline-block text-start">
-                            <p>HTML5、CSS3(SCSS)、Bootstrap 5、レスポンシブデザイン</p>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-lg-0 inview fadeinUp">
-                    <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
-                        <dt class="fs-2 mb-3">
-                            <i class="fa-solid fa-palette fs-1"></i><br>
-                            Adobe / Figma
-                        </dt>
-                        <dd class="d-inline-block text-start">
-                            <p>Illustratorを使った印刷媒体の制作</p>
-                            <p>potoshopを使ったWeb広告やサイトのデザイン</p>
-                            <p>Figmaを用いたUI/UXデザインをコーディングし、ウェブサイトに実装</p>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="ExpertiseItem col-sm-6 col-lg-3 mt-4 mt-lg-0 inview fadeinUp">
-                    <dl class="fixHeight bg-white m-0 p-5 border border-2 border-black rounded-3">
-                        <dt class="fs-2 mb-3">
-                            <i class="fa-solid fa-circle-plus fs-1"></i><br>
-                            その他
-                        </dt>
-                        <dd class="d-inline-block text-start">
-                            <p>jQueryを使ったインタラクティブなエフェクト</p>
-                            <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
-                        </dd>
-                    </dl>
-                </div>
-            </div>
-
-            <div class="text-center mt-5 inview fadeinUp">
-                <a href="expertise.php" class="moreButtonV2 fw-bold">
-                    <span class="fs-2">詳細を見る</span>
-                    <i class="fa-solid fa-arrow-right ms-3 arrowIcon"></i>
-                </a>
-            </div>
 
             </div>
         </div>

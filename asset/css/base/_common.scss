@@ -18,6 +18,9 @@ body {
   color: $black;
   font-weight: 400;
   background-color: $ivory-light;
+  &.ja{
+    @include fontSanJa;
+  }
 }
 img {
   vertical-align: bottom;

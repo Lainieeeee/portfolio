@@ -3,7 +3,7 @@
 <head>
     <?php include 'layouts/head.php'; ?>
 </head>
-<body id="pagetop">
+<body id="pagetop" class="ja">
 
     <!-- header -->
     <?php
@@ -104,7 +104,7 @@
     <script src="/node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="/asset/js/filterV1.js"></script>
+    <script src="/asset/js/filterV1-jp.js"></script>
     
 </body>
 </html>

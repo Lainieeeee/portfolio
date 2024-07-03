@@ -16,18 +16,18 @@
 
         <div class="container detailInner text-center">
             <div class="titleBox mb-5 pb-5 text-center fw-bold text-orange inview fadeinUp">
-                <p class="fs-3">過去の制作実績一覧</p>
+                <p class="fs-3">作品集列表</p>
                 <h2 class="display-2 fw-bold">PRODUCTS</h2>
             </div>
             <p class="inview fadeinUp">
-                これまでのフロントエンドエンジニアとして制作した成果物です。<br>
-                ECサイト・ブランディングサイト・コーポレートサイト・ランディングページなどを含む、多岐にわたるプロジェクトを紹介します。
+                這是我作為前端工程師迄今為止的作品。<br>
+                包含購物網站、形象官網、企業網站、一頁式網站等各種專案。
             </p>
         </div>
 
         <!-- filterV1 -->
         <div id="app" class="filterV1 container detailInner pt-0">
-            <p class="text-center mb-5 inview fadeinUp">\ カテゴリー選択できます /</p>
+            <p class="text-center mb-5 inview fadeinUp">\ 可以選擇分類哦～ /</p>
             <!-- categoryFilters -->
             <ul class="categoryFilters mb-5 inview fadeinUp">
                 <li @click="filterProjects('all')" :class="{ 'active': currentCategory === 'all' }">All</li>
@@ -62,7 +62,7 @@
                     <!-- projectUrl -->
                     <p class="projectUrl mt-3 text-end" v-if="project.url">
                         <a :href="project.url" target="_blank">
-                            サイトを見る
+                            連結網址
                             <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
                         </a>
                     </p>

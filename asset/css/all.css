@@ -12610,12 +12610,15 @@ html {
 }
 
 body {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Work Sans", "Noto Sans TC", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
   color: #212529;
   font-weight: 400;
   background-color: #FBFBF6;
+}
+body.ja {
+  font-family: "Work Sans", "Noto Sans JP", sans-serif;
 }
 
 img {
@@ -14298,7 +14301,7 @@ textarea {
   color: #212529;
   min-height: 44px;
   border-color: #ced4da;
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Work Sans", "Noto Sans TC", sans-serif;
 }
 
 input[type=text]::-moz-placeholder, input[type=email]::-moz-placeholder, input[type=number]::-moz-placeholder, input[type=tel]::-moz-placeholder, input[type=date]::-moz-placeholder, input[type=password]::-moz-placeholder, input[type=search]::-moz-placeholder, select::-moz-placeholder, textarea::-moz-placeholder {
@@ -14739,6 +14742,37 @@ textarea.form-control {
   }
   .indexExpertiseBox .ExpertiseList .ExpertiseItem:hover:after {
     display: none;
+  }
+}
+
+.indexExperienceBox dl + dl {
+  border-top: 1px dashed #DB5331;
+}
+
+.indexAboutBox .iconBox {
+  position: relative;
+}
+.indexAboutBox .iconBox:before, .indexAboutBox .iconBox:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-image: url(/asset/images/index/ic01.webp);
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+  top: -2rem;
+  right: -100px;
+}
+@media screen and (max-width: 1199.98px) {
+  .indexAboutBox .iconBox:before, .indexAboutBox .iconBox:after {
+    right: -2rem;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .indexAboutBox .iconBox:before, .indexAboutBox .iconBox:after {
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
   }
 }
 
