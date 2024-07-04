@@ -184,143 +184,386 @@
 
                 <div class="projectItem">
                     <!-- projectName -->
-                    <p class="projectName fs-2 fw-bold text-orange mb-2">壹然 evernature</p>
-                    <!-- projectCategories -->
-                    <ul class="projectCategories mb-3">
-                        <li class="category">category01</li>
-                        <li class="category">category02</li>
-                    </ul>
-                    <!-- fancyBox projectImages -->
-                    <div class="fancyBox imageZoomHorizontal projectImages" id="gallery1">
-                        <a data-fancybox="gallery1" href="/asset/images/products/2024/evernature02/pc/index.webp" data-caption="">
-                            <div class="img">
-                                <img src="/asset/images/products/2024/evernature02/pc/index.webp" width="" height="" alt="">
-                            </div>
-                        </a>
-                        <div style="display:none">
-                            <a data-fancybox="gallery1" href="https://lipsum.app/id/61/1600x1200" data-caption="">
-                                <img src="https://lipsum.app/id/61/1600x1200">
-                            </a>
-                            <a data-fancybox="gallery1" href="https://lipsum.app/id/62/1600x1200">
-                                <img src="https://lipsum.app/id/62/1600x1200">
-                            </a>
-                            <a data-fancybox="gallery1" href="https://lipsum.app/id/63/1600x1200">
-                                <img src="https://lipsum.app/id/63/1600x1200">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- projectUrl -->
-                    <p class="projectUrl mt-3 text-end">
-                        <a href="https://evernature-ys.com.tw/" target="_blank">
-                            サイトを見る
-                            <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
-                        </a>
-                    </p>
+                    <p class="projectName fs-2 fw-bold text-orange mb-2 firstLine">壹然 evernature</p><!-- fancyBox projectImages -->
+                    <div id="gallery1" class="fancyBox imageZoomHorizontal projectImages"><!-- First image (visible) --><a
+                            data-fancybox="gallery1" href="/asset/images/products/2024/evernature02/pc/index.webp" data-caption="">
+                            <div class="img"><img src="/asset/images/products/2024/evernature02/pc/index.webp" width="" height=""
+                                    alt=""></div>
+                        </a><!-- Hidden images -->
+                        <div style="display: none;"><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/about.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/about.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/404.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/404.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/albums.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/albums.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/albums02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/albums02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/articles.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/articles.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/articles02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/articles02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/benefits.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/benefits.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/cart01.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/cart01.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/cart02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/cart02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/cart03.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/cart03.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/contact.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/contact.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/contact02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/contact02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/create.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/create.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/favorite.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/favorite.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/favorite02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/favorite02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/fraud.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/fraud.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/login.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/login.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/news.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/news.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/news02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/news02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/orders.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/orders.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/password.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/password.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/password02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/password02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/privacy.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/privacy.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/products.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/products.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/products02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/products02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/profile.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/profile.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/shopping.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/shopping.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/pc/signup.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/pc/signup.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/index.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/index.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/about.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/about.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/404.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/404.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/albums.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/albums.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/albums02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/albums02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/articles.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/articles.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/articles02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/articles02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/benefits.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/benefits.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/cart01.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/cart01.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/cart02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/cart02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/cart03.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/cart03.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/contact.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/contact.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/contact02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/contact02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/create.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/create.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/favorite.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/favorite.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/favorite02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/favorite02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/fraud.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/fraud.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/login.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/login.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/news.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/news.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/news02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/news02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/orders.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/orders.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/password.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/password.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/password02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/password02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/privacy.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/privacy.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/products.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/products.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/products02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/products02.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/profile.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/profile.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/shopping.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/shopping.webp"></a><a data-fancybox="gallery1"
+                                href="/asset/images/products/2024/evernature02/sp/signup.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/evernature02/sp/signup.webp"></a></div>
+                    </div><!-- projectCategories -->
+                    <ul class="projectCategories mt-3">
+                        <li class="category">台湾サイト</li>
+                        <li class="category">ショッピングサイト</li>
+                    </ul><!-- projectUrl -->
+                    <p class="projectUrl mt-3 text-end"><a href="https://evernature-ys.com.tw/" target="_blank"> サイトを見る <i
+                                class="fa-solid fa-arrow-up-right-from-square ps-2"></i></a></p>
                 </div>
                 <div class="projectItem">
                     <!-- projectName -->
-                    <p class="projectName fs-2 fw-bold text-orange mb-2">福樓 Fu Lou Restaurant</p>
-                    <!-- projectCategories -->
-                    <ul class="projectCategories mb-3">
-                        <li class="category">category01</li>
-                        <li class="category">category02</li>
-                    </ul>
+                    <p class="projectName fs-2 fw-bold text-orange mb-2 firstLine">福樓 Fu Lou Restaurant</p>
                     <!-- fancyBox projectImages -->
-                    <div class="fancyBox imageZoomHorizontal projectImages" id="gallery2">
-                        <a data-fancybox="gallery2" href="/asset/images/products/2023/fulou/pc/index.webp" data-caption="">
-                            <div class="img">
-                                <img src="/asset/images/products/2023/fulou/pc/index.webp" width="" height="" alt="">
-                            </div>
-                        </a>
-                        <div style="display:none">
-                            <a data-fancybox="gallery2" href="https://lipsum.app/id/61/1600x1200" data-caption="">
-                                <img src="https://lipsum.app/id/61/1600x1200">
-                            </a>
-                            <a data-fancybox="gallery2" href="https://lipsum.app/id/62/1600x1200">
-                                <img src="https://lipsum.app/id/62/1600x1200">
-                            </a>
-                            <a data-fancybox="gallery2" href="https://lipsum.app/id/63/1600x1200">
-                                <img src="https://lipsum.app/id/63/1600x1200">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- projectUrl -->
-                    <p class="projectUrl mt-3 text-end">
-                        <a href="https://fulou.com.tw/" target="_blank">
-                            サイトを見る
-                            <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
-                        </a>
-                    </p>
+                    <div id="gallery2" class="fancyBox imageZoomHorizontal projectImages"><!-- First image (visible) --><a
+                            data-fancybox="gallery2" href="/asset/images/products/2023/fulou/pc/index.webp" data-caption="">
+                            <div class="img"><img src="/asset/images/products/2023/fulou/pc/index.webp" width="" height="" alt=""></div>
+                        </a><!-- Hidden images -->
+                        <div style="display: none;"><a data-fancybox="gallery2" href="/asset/images/products/2023/fulou/pc/about.webp"
+                                data-caption=""><img src="/asset/images/products/2023/fulou/pc/about.webp"></a><a
+                                data-fancybox="gallery2" href="/asset/images/products/2023/fulou/pc/albums.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/albums.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/albums02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/albums02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/articles.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/articles.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/articles02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/articles02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/cart01.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/cart01.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/cart02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/cart02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/cart03.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/cart03.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/contact.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/contact.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/create.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/create.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/faq.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/faq.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/favorite.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/favorite.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/favorite02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/favorite02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/login.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/login.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/menu.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/menu.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/news.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/news.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/news02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/news02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/orders.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/orders.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/orders02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/orders02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/password.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/password.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/privacy.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/privacy.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/products.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/products.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/products02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/products02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/profile.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/profile.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/search.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/search.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/search02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/search02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/pc/signup.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/pc/signup.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/index.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/index.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/about.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/about.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/albums.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/albums.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/albums02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/albums02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/articles.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/articles.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/articles02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/articles02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/cart01.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/cart01.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/cart02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/cart02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/cart03.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/cart03.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/contact.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/contact.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/create.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/create.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/faq.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/faq.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/favorite.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/favorite.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/favorite02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/favorite02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/login.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/login.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/menu.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/menu.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/news.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/news.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/news02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/news02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/orders.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/orders.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/orders02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/orders02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/password.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/password.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/privacy.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/privacy.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/products.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/products.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/products02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/products02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/profile.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/profile.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/search.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/search.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/search02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/search02.webp"></a><a data-fancybox="gallery2"
+                                href="/asset/images/products/2023/fulou/sp/signup.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/fulou/sp/signup.webp"></a></div>
+                    </div><!-- projectCategories -->
+                    <ul class="projectCategories mt-3">
+                        <li class="category">台湾サイト</li>
+                        <li class="category">ショッピングサイト</li>
+                    </ul><!-- projectUrl -->
+                    <p class="projectUrl mt-3 text-end"><a href="https://fulou.com.tw/" target="_blank"> サイトを見る <i
+                                class="fa-solid fa-arrow-up-right-from-square ps-2"></i></a></p>
                 </div>
                 <div class="projectItem">
                     <!-- projectName -->
-                    <p class="projectName fs-2 fw-bold text-orange mb-2">小貸先生 MR. DAI</p>
-                    <!-- projectCategories -->
-                    <ul class="projectCategories mb-3">
-                        <li class="category">category01</li>
-                        <li class="category">category02</li>
-                    </ul>
-                    <!-- fancyBox projectImages -->
-                    <div class="fancyBox imageZoomHorizontal projectImages" id="gallery3">
-                        <a data-fancybox="gallery3" href="/asset/images/products/2023/mr-dai/pc/index.webp" data-caption="">
-                            <div class="img">
-                                <img src="/asset/images/products/2023/mr-dai/pc/index.webp" width="" height="" alt="">
+                    <p class="projectName fs-2 fw-bold text-orange mb-2 firstLine">小貸先生 MR. DAI</p><!-- fancyBox projectImages -->
+                    <div id="gallery3" class="fancyBox imageZoomHorizontal projectImages"><!-- First image (visible) --><a
+                            data-fancybox="gallery3" href="/asset/images/products/2023/mr-dai/pc/index.webp" data-caption="">
+                            <div class="img"><img src="/asset/images/products/2023/mr-dai/pc/index.webp" width="" height="" alt="">
                             </div>
-                        </a>
-                        <div style="display:none">
-                            <a data-fancybox="gallery3" href="https://lipsum.app/id/61/1600x1200" data-caption="">
-                                <img src="https://lipsum.app/id/61/1600x1200">
-                            </a>
-                            <a data-fancybox="gallery3" href="https://lipsum.app/id/62/1600x1200">
-                                <img src="https://lipsum.app/id/62/1600x1200">
-                            </a>
-                            <a data-fancybox="gallery3" href="https://lipsum.app/id/63/1600x1200">
-                                <img src="https://lipsum.app/id/63/1600x1200">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- projectUrl -->
-                    <p class="projectUrl mt-3 text-end">
-                        <a href="https://mrdailoan.com/" target="_blank">
-                            サイトを見る
-                            <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
-                        </a>
-                    </p>
+                        </a><!-- Hidden images -->
+                        <div style="display: none;"><a data-fancybox="gallery3" href="/asset/images/products/2023/mr-dai/pc/about.webp"
+                                data-caption=""><img src="/asset/images/products/2023/mr-dai/pc/about.webp"></a><a
+                                data-fancybox="gallery3" href="/asset/images/products/2023/mr-dai/pc/404.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/404.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/articles.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/articles.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/articles02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/articles02.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/cases.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/cases.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/cases02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/cases02.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/contact.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/contact.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/contact02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/contact02.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/fraud.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/fraud.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/privacy.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/privacy.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/pc/services.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/pc/services.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/index.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/index.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/about.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/about.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/404.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/404.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/articles.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/articles.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/articles02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/articles02.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/cases.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/cases.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/cases02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/cases02.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/contact.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/contact.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/contact02.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/contact02.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/fraud.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/fraud.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/privacy.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/privacy.webp"></a><a data-fancybox="gallery3"
+                                href="/asset/images/products/2023/mr-dai/sp/services.webp" data-caption=""><img
+                                    src="/asset/images/products/2023/mr-dai/sp/services.webp"></a></div>
+                    </div><!-- projectCategories -->
+                    <ul class="projectCategories mt-3">
+                        <li class="category">台湾サイト</li>
+                        <li class="category">コーポレートサイト</li>
+                    </ul><!-- projectUrl -->
+                    <p class="projectUrl mt-3 text-end"><a href="https://mrdailoan.com/" target="_blank"> サイトを見る <i
+                                class="fa-solid fa-arrow-up-right-from-square ps-2"></i></a></p>
                 </div>
                 <div class="projectItem">
                     <!-- projectName -->
-                    <p class="projectName fs-2 fw-bold text-orange mb-2">客製小姐</p>
-                    <!-- projectCategories -->
-                    <ul class="projectCategories mb-3">
-                        <li class="category">category01</li>
-                        <li class="category">category02</li>
-                    </ul>
-                    <!-- fancyBox projectImages -->
-                    <div class="fancyBox imageZoomHorizontal projectImages" id="gallery4">
-                        <a data-fancybox="gallery4" href="/asset/images/products/2024/custom-miss/pc/index.webp" data-caption="">
-                            <div class="img">
-                                <img src="/asset/images/products/2024/custom-miss/pc/index.webp" width="" height="" alt="">
+                    <p class="projectName fs-2 fw-bold text-orange mb-2 firstLine">客製小姐</p><!-- fancyBox projectImages -->
+                    <div id="gallery4" class="fancyBox imageZoomHorizontal projectImages"><!-- First image (visible) --><a
+                            data-fancybox="gallery4" href="/asset/images/products/2024/custom-miss/pc/index.webp" data-caption="">
+                            <div class="img"><img src="/asset/images/products/2024/custom-miss/pc/index.webp" width="" height="" alt="">
                             </div>
-                        </a>
-                        <div style="display:none">
-                            <a data-fancybox="gallery4" href="https://lipsum.app/id/61/1600x1200" data-caption="">
-                                <img src="https://lipsum.app/id/61/1600x1200">
-                            </a>
-                            <a data-fancybox="gallery4" href="https://lipsum.app/id/62/1600x1200">
-                                <img src="https://lipsum.app/id/62/1600x1200">
-                            </a>
-                            <a data-fancybox="gallery4" href="https://lipsum.app/id/63/1600x1200">
-                                <img src="https://lipsum.app/id/63/1600x1200">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- projectUrl -->
-                    <p class="projectUrl mt-3 text-end">
-                        <a href="https://demo-c.wagikgdemo.com.tw/" target="_blank">
-                            サイトを見る
-                            <i class="fa-solid fa-arrow-up-right-from-square ps-2"></i>
-                        </a>
-                    </p>
+                        </a><!-- Hidden images -->
+                        <div style="display: none;"><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/about.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/about.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/articles.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/articles.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/articles02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/articles02.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/contact.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/contact.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/contact02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/contact02.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/fraud.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/fraud.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/news.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/news.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/news02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/news02.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/privacy.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/privacy.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/service.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/service.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/pc/service02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/pc/service02.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/index.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/index.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/about.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/about.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/articles.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/articles.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/articles02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/articles02.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/contact.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/contact.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/contact02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/contact02.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/fraud.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/fraud.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/news.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/news.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/news02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/news02.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/privacy.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/privacy.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/service.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/service.webp"></a><a data-fancybox="gallery4"
+                                href="/asset/images/products/2024/custom-miss/sp/service02.webp" data-caption=""><img
+                                    src="/asset/images/products/2024/custom-miss/sp/service02.webp"></a></div>
+                    </div><!-- projectCategories -->
+                    <ul class="projectCategories mt-3">
+                        <li class="category">台湾サイト</li>
+                        <li class="category">コーポレートサイト</li>
+                        <li class="category">ブランディングサイト</li>
+                    </ul><!-- projectUrl -->
+                    <p class="projectUrl mt-3 text-end"><a href="https://demo-c.wagikgdemo.com.tw/" target="_blank"> サイトを見る <i
+                                class="fa-solid fa-arrow-up-right-from-square ps-2"></i></a></p>
                 </div>
 
             </div>
