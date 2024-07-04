@@ -48,7 +48,7 @@
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- hamburgerMenu -->
-                <div class="hamburgerMenu"><span></span><span></span><span></span></div>
+                <div class="hamburgerMenu ms-5"><span></span><span></span><span></span></div>
             </button>
 
             <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
