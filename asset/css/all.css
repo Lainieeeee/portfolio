@@ -14744,6 +14744,21 @@ textarea.form-control {
     display: none;
   }
 }
+.indexExpertiseBox .ExpertiseList .ExpertiseItem p {
+  position: relative;
+  padding-left: 2rem;
+}
+.indexExpertiseBox .ExpertiseList .ExpertiseItem p:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-color: #DB5331;
+  width: 0.8rem;
+  height: 0.8rem;
+  top: 9px;
+  left: 0;
+  border-radius: 50%;
+}
 
 .indexExperienceBox dl + dl {
   border-top: 1px dashed #DB5331;

@@ -350,8 +350,8 @@
                                 JavaScript
                             </dt>
                             <dd class="d-inline-block text-start">
-                                <p>jQueryを使ったインタラクティブなエフェクト</p>
-                                <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
+                                <p class="mb-2">jQueryを使ったインタラクティブなエフェクト実装経験</p>
+                                <p>Viteを使用した高速で効率的なWeb開発に精通</p>
                             </dd>
                         </dl>
                     </div>
@@ -362,7 +362,9 @@
                                 Web Layout
                             </dt>
                             <dd class="d-inline-block text-start">
-                                <p>HTML5、CSS3(SCSS)、Bootstrap 5、レスポンシブデザイン</p>
+                                <p class="mb-2">HTML5、CSS3(SCSS)、Bootstrap5を用いたレスポンシブデザインの豊富な構築経験</p>
+                                <p class="mb-2">CSSアニメーションやトランジションの実装</p>
+                                <p>ページ速度最適化し、ユーザーエクスペリエンスを向上</p>
                             </dd>
                         </dl>
                     </div>
@@ -373,9 +375,9 @@
                                 Adobe / Figma
                             </dt>
                             <dd class="d-inline-block text-start">
-                                <p>Illustratorを使った印刷媒体の制作</p>
-                                <p>potoshopを使ったWeb広告やサイトのデザイン</p>
-                                <p>Figmaを用いたUI/UXデザインをコーディングし、ウェブサイトに実装</p>
+                                <p class="mb-2">Illustratorを使ったデザイン販促ツールの制作</p>
+                                <p class="mb-2">Potoshopを使ったWeb広告やサイトのデザイン</p>
+                                <p>Figmaデザインを基に精密なコーディングを行い、デザインの意図を正確に反映</p>
                             </dd>
                         </dl>
                     </div>
@@ -386,8 +388,9 @@
                                 其他
                             </dt>
                             <dd class="d-inline-block text-start">
-                                <p>jQueryを使ったインタラクティブなエフェクト</p>
-                                <p>Viteを使用したモダンなフロントエンド開発環境の構築と最適化</p>
+                                <p class="mb-2">Git / GitHubを使用したバージョン管理と複数エンジニアとの共同作業</p>
+                                <p class="mb-2">YouTrackを使用したチーム全体のタスクの進捗管理</p>
+                                <p>Ubuntu(LinuxOS)を使用した開発環境で、フロント開発やターミナル操作に精通</p>
                             </dd>
                         </dl>
                     </div>
