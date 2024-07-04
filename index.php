@@ -38,35 +38,41 @@
                 <h2 class="display-2 fw-bold">ABOUT</h2>
             </div>
 
-            <div class="iconBox col-10 col-xl-8 m-auto">
-                <div class="d-flex justify-content-start align-items-end mb-5 inview fadeinUp">
-                    <p class="display-1">莊 又霖</p>
-                    <p class="ps-3 display-4">CHUANG YU LIN</p>
+            <div class="d-xl-flex justify-content-xl-between align-items-start">
+                <!-- profileImg -->
+                <div class="profileImg col-9 col-xl-3 mx-auto mb-5 mb-xl-0 inview fadeinLeft">
+                    <img src="/asset/images/index/img02.webp" alt="profile" loading="lazy">
                 </div>
-                <p class="mb-4 lh-lg inview fadeinUp">
-                    はじめまして、莊と申します。<br>
-                    台湾の高雄市で生まれ、幼少期に日本に移住し、東京工科大学のデザイン学部デザイン学科を卒業後、フロントエンジニアとして計6年の実務経験を積んできました。
-                </p>
-                <p class="mb-4 lh-lg inview fadeinUp">
-                    日本ではWeb制作会社にて4年半、商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、ユーザー体験を重視したWebサイトの設計と開発に従事しました。
-                </p>
-                <p class="mb-4 lh-lg inview fadeinUp">
-                    台湾に帰国後は、高雄師範大学の語学学校で中国語を学び、台湾現地のWeb制作会社で1年3か月の間、ブランドサイトやショッピングサイト、
-                    ランディングページなど複数のプロジェクトを手がけました。
-                    これらの経験を通じて、異文化におけるユーザーのニーズを理解し、対応するスキルを磨きました。
-                </p>
-                <p class="lh-lg inview fadeinUp">
-                    デザインと技術の融合を追求し、ユーザーにとって魅力的で使いやすいWebサイトを作り続けることが私の目標です。どうぞよろしくお願いいたします。
-                </p>
-                <dl class="mt-5 inview fadeinUp">
-                    <dt class="fs-2 mb-2">
-                        <i class="fa-regular fa-comments pe-2"></i>
-                        言語 Language
-                    </dt>
-                    <dd class="fs-3">
-                        日本語、台湾閩南語、中国標準語（HSK5級）
-                    </dd>
-                </dl>
+                <!-- textBox -->
+                <div class="textBox col-xl-8">
+                    <div class="d-flex justify-content-start align-items-end mb-5 inview fadeinUp">
+                        <p class="display-1">莊 又霖</p>
+                        <p class="ps-3 display-4">CHUANG YU LIN</p>
+                    </div>
+                    <p class="mb-4 lh-lg inview fadeinUp">
+                        您好、我是莊又霖。<br>
+                        我生於台灣高雄，細時就搬去日本住了。畢業於東京工科大學設計部設計學科，做前端工程師總共有6年的實務經驗。
+                    </p>
+                    <p class="mb-4 lh-lg inview fadeinUp">
+                        在日本的網頁製作公司工作了4年半，常駐於商業設施的新業務部門及生命保險公司的業務數位部門，專注於設計和開發重視使用者體驗的網站。
+                    </p>
+                    <p class="mb-4 lh-lg inview fadeinUp">
+                        返回台灣後，在高雄師範大學語言學校學習中文之後，在台灣本地的網頁製作公司參與購物網站、形象官網等的多個專案。
+                        這些經驗讓我深入了解跨文化環境中使用者的需求，並不斷精進相應的技能。
+                    </p>
+                    <p class="lh-lg inview fadeinUp">
+                        我的目標是追求設計與技術的融合，不斷創造對使用者既具吸引力又易於操作的網站。
+                    </p>
+                    <dl class="mt-5 inview fadeinUp">
+                        <dt class="fs-2 mb-2">
+                            <i class="fa-regular fa-comments pe-2"></i>
+                            言語 Language
+                        </dt>
+                        <dd class="fs-3">
+                            日文、台灣閩南語、中文（HSK5級）
+                        </dd>
+                    </dl>
+                </div>
             </div>
 
         </div>
@@ -98,8 +104,9 @@
                             <p class="fs-2">前端工程師</p>
                             <p class="fs-2">瓦吉科技股份有限公司</p>
                             <p class="my-3">
-                                バックエンドエンジニアと連携し、フロントエンドエンジニアとして新規WEBサイトの開発に従事しました。<br>
-                                ECサイトやコーポレートサイトなど多岐にわたるプロジェクトに携わり、ゼロからのスタートでサイト運営、ページ分析・レポート作成、SEO対策まで一貫して経験しました。
+                                作為前端工程師與後端工程師合作，共同參與新網站的開發。<br>
+                                專注於多元化專案，包括購物網站、形象官網等，從零開始進行全程網站運營、頁面設計優化及功能開發。<br>
+                                積極管理網站運作，並透過GA/GTM進行深入的頁面分析，以及實施有效的SEO優化策略。
                             </p>
                             <ul class="d-flex justyfy-content-start align-items-center flex-wrap">
                                 <li class="text-orange fs-4 me-4">#HTML5</li>
@@ -129,9 +136,9 @@
                             <p class="fs-2">前端工程師 / 網頁設計師</p>
                             <p class="fs-2">株式会社あとらす二十一</p>
                             <p class="my-3">
-                                商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、顧客先のプロジェクトにてフロントエンド開発に携わりました。<br>
-                                WEBサイトのデザインから構築、さらにチラシ、ポスター、バナーのデザインも行いました。<br>
-                                プロジェクトごとに異なる様々なCMSを使用したことで、柔軟な対応力と広範な知識を身につけました。
+                                駐點於商業設施的新業務部門和生命保險公司的業務數位部門，參與客戶專案的前端開發。<br>
+                                從網站設計到建置，並製作宣傳工具如傳單、海報和橫幅等。<br>
+                                透過使用多種不同的CMS應對各種專案，獲得了靈活的應對能力和廣泛的知識。
                             </p>
                             <ul class="d-flex justyfy-content-start align-items-center flex-wrap">
                                 <li class="text-orange fs-4 me-4">#HTML5</li>

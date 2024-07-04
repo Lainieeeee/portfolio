@@ -41,26 +41,5 @@
 }
 
 .indexAboutBox{
-    .iconBox{
-        position: relative;
-        &:before,&:after{
-            content: "";
-            position: absolute;
-            display: inline-block;
-            background-image: url(/asset/images/index/ic01.webp);
-            background-size: 100px 100px;
-            width: 100px;
-            height: 100px;
-            top: -2rem;
-            right: -100px;
-            @include xl{
-                right: -2rem;
-            }
-            @include sm{
-                background-size: 50px 50px;
-                width: 50px;
-                height: 50px;
-            }
-        }
-    }
+    
 }

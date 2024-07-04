@@ -63,7 +63,7 @@
             "/asset/images/products/2024/evernature02/sp/shopping.webp",
             "/asset/images/products/2024/evernature02/sp/signup.webp"
         ],
-        "categories": ["台湾サイト", "ECサイト"],
+        "categories": ["台湾サイト", "ショッピングサイト"],
         "url": "https://evernature-ys.com.tw/"
     },
     {
@@ -128,7 +128,7 @@
             "/asset/images/products/2023/fulou/sp/search02.webp",
             "/asset/images/products/2023/fulou/sp/signup.webp"
         ],
-        "categories": ["台湾サイト","ECサイト"],
+        "categories": ["台湾サイト","ショッピングサイト"],
         "url": "https://fulou.com.tw/"
     },
     {
@@ -255,7 +255,7 @@
             "/asset/images/products/2023/tc-water/sp/search.webp",
             "/asset/images/products/2023/tc-water/sp/signup.webp"
         ],
-        "categories": ["台湾サイト","ECサイト"],
+        "categories": ["台湾サイト","ショッピングサイト"],
         "url": "https://tc-water.com.tw/"
     },
     {
@@ -325,7 +325,7 @@
             "/asset/images/products/2023/xiaohewu/sp/shipping.webp",
             "/asset/images/products/2023/xiaohewu/sp/signup.webp"
         ],
-        "categories": ["台湾サイト","ECサイト"],
+        "categories": ["台湾サイト","ショッピングサイト"],
         "url": ""
     },
     {

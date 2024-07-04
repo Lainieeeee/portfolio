@@ -38,32 +38,43 @@
                 <h2 class="display-2 fw-bold">ABOUT</h2>
             </div>
 
-            <div class="d-flex justify-content-start align-items-end">
-                <p class="display-1">莊 又霖</p>
-                <p class="ps-3 display-4">CHUANG YU LIN</p>
+            <div class="d-xl-flex justify-content-xl-between align-items-start">
+                <!-- profileImg -->
+                <div class="profileImg col-9 col-xl-3 mx-auto mb-5 mb-xl-0 inview fadeinLeft">
+                    <img src="/asset/images/index/img02.webp" alt="profile" loading="lazy">
+                </div>
+                <!-- textBox -->
+                <div class="textBox col-xl-8">
+                    <div class="d-flex justify-content-start align-items-end mb-5 inview fadeinUp">
+                        <p class="display-1">莊 又霖</p>
+                        <p class="ps-3 display-4">CHUANG YU LIN</p>
+                    </div>
+                    <p class="mb-4 lh-lg inview fadeinUp">
+                        はじめまして、莊と申します。<br>
+                        台湾高雄市で生まれ、幼少期に日本に移住し、東京工科大学のデザイン学部デザイン学科を卒業後、フロントエンジニアとして計6年の実務経験を積んできました。
+                    </p>
+                    <p class="mb-4 lh-lg inview fadeinUp">
+                        日本ではWeb制作会社にて4年半、商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、ユーザー体験を重視したWebサイトの設計と開発に従事しました。
+                    </p>
+                    <p class="mb-4 lh-lg inview fadeinUp">
+                        台湾に帰国後は、高雄師範大学の語学学校で中国語を学び、台湾現地のWeb制作会社でショッピングサイトやコープレートサイト、
+                        ブランディングサイトなど複数のプロジェクトを手掛けました。
+                        これらの経験を通じて、異文化におけるユーザーのニーズを理解し、対応するスキルを磨きました。
+                    </p>
+                    <p class="lh-lg inview fadeinUp">
+                        デザインと技術の融合を追求し、ユーザーにとって魅力的で使いやすいWebサイトを作り続けることが私の目標です。
+                    </p>
+                    <dl class="mt-5 inview fadeinUp">
+                        <dt class="fs-2 mb-2">
+                            <i class="fa-regular fa-comments pe-2"></i>
+                            言語 Language
+                        </dt>
+                        <dd class="fs-3">
+                            日本語、台湾閩南語、中国標準語（HSK5級）
+                        </dd>
+                    </dl>
+                </div>
             </div>
-
-            <p>
-                はじめまして。私は莊と申します。<br>
-                私は台湾の高雄市で生まれ、幼少期に日本に移住し、東京工科大学のデザイン学部デザイン学科を卒業後、フロントエンジニアとして計6年の実務経験を積みました。<br>
-                <br>
-                日本ではWeb制作会社にて4年半の間、商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、多岐にわたるプロジェクトに携わりました。特に、ユーザー体験を重視したWebサイトの設計と開発に力を入れてきました。<br>
-                <br>
-                その後、台湾に帰国し、高雄師範大学の語学学校で中国語を学びました。<br>
-                台湾現地のWeb制作会社では1年3か月の間、ブランドサイトやショッピングサイト、ランディングページなど複数のプロジェクトを手がけました。これらの経験を通じて、異文化におけるユーザーのニーズを理解し、対応するスキルを磨きました。<br>
-                <br>
-                デザインと技術の融合を追求し、ユーザーにとって使いやすく魅力的なWebサイトを作り続けることが私の目標です。どうぞよろしくお願いいたします。
-            </p>
-
-            <dl>
-                <dt>
-                    言語 Language
-                    <i class="fa-regular fa-comments ps-2"></i>
-                </dt>
-                <dd>
-                    日本語、台湾語、中国語（HSK5級）
-                </dd>
-            </dl>
 
         </div>
 
@@ -91,15 +102,25 @@
                     <dl class="px-4 inview fadeinUp">
                         <dt>2023/4~</dt>
                         <dd class="mt-2 mb-0">
-                            <p>フロントエンジニア</p>
-                            <p>瓦吉科技股份有限公司</p>
+                            <p class="fs-2">フロントエンジニア</p>
+                            <p class="fs-2">瓦吉科技股份有限公司</p>
                             <p class="my-3">
-                                文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章
+                                フロントエンドエンジニアとしてバックエンドエンジニアと連携し、新規WEBサイトの開発に従事。<br>
+                                ショッピングサイトやコーポレートサイトなど多岐にわたるプロジェクトに携わり、ゼロベースからサイト運営、ページ分析・レポート作成、SEO対策まで一貫して経験。
                             </p>
                             <ul class="d-flex justyfy-content-start align-items-center flex-wrap">
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4 me-3">Category</li>
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4 me-3">Category</li>
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4">Category</li>
+                                <li class="text-orange fs-4 me-4">#HTML5</li>
+                                <li class="text-orange fs-4 me-4">#SCSS</li>
+                                <li class="text-orange fs-4 me-4">#JavaScript/Jquery</li>
+                                <li class="text-orange fs-4 me-4">#Vite</li>
+                                <li class="text-orange fs-4 me-4">#Bootstrap</li>
+                                <li class="text-orange fs-4 me-4">#Git/Github</li>
+                                <li class="text-orange fs-4 me-4">#Laravel</li>
+                                <li class="text-orange fs-4 me-4">#Vmwear</li>
+                                <li class="text-orange fs-4 me-4">#Ubuntu</li>
+                                <li class="text-orange fs-4 me-4">#Linux</li>
+                                <li class="text-orange fs-4 me-4">#GA/GTM</li>
+                                <li class="text-orange fs-4 me-4">#Figma</li>
                             </ul>
                         </dd>
                     </dl>
@@ -112,15 +133,25 @@
                     <dl class="mt-4 pt-4 px-4 inview fadeinUp">
                         <dt>2018/4~2022/10</dt>
                         <dd class="mt-2 mb-0">
-                            <p>フロントエンジニア / Webデザイナー</p>
-                            <p>株式会社あとらす二十一</p>
+                            <p class="fs-2">フロントエンジニア / Webデザイナー</p>
+                            <p class="fs-2">株式会社あとらす二十一</p>
                             <p class="my-3">
-                                商業施設の新規事業部で.…等の新規開発、生命保険会社の営業デジタル部でソリシター(保険販売員)に向けたwebサイトによる販売業務の支援
+                                商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、顧客先のプロジェクトにてフロントエンド開発に従事。<br>
+                                Webサイトのデザインから構築、さらにはチラシ、ポスター、バナーなどデザイン販促ツールを制作。<br>
+                                プロジェクトごとに異なる様々なCMSを使用することで、柔軟な対応力と広範な知識を習得。
                             </p>
                             <ul class="d-flex justyfy-content-start align-items-center flex-wrap">
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4 me-3">Category</li>
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4 me-3">Category</li>
-                                <li class="bg-orange text-white rounded-3 fs-4 py-2 px-4">Category</li>
+                                <li class="text-orange fs-4 me-4">#HTML5</li>
+                                <li class="text-orange fs-4 me-4">#SCSS</li>
+                                <li class="text-orange fs-4 me-4">#JavaScript/Jquery</li>
+                                <li class="text-orange fs-4 me-4">#Wordpress(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#楽天RMS(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#Sitecore(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#aishipR(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#イオンサイトdeつく～る(CMS)</li>
+                                <li class="text-orange fs-4 me-4">#Illustrator</li>
+                                <li class="text-orange fs-4 me-4">#Photoshop</li>
+                                <li class="text-orange fs-4 me-4">#XAMPP</li>
                             </ul>
                         </dd>
                     </dl>
