@@ -113,13 +113,15 @@
                                 <li class="text-orange fs-4 me-4">#SCSS</li>
                                 <li class="text-orange fs-4 me-4">#JavaScript/Jquery</li>
                                 <li class="text-orange fs-4 me-4">#Vite</li>
-                                <li class="text-orange fs-4 me-4">#Bootstrap</li>
+                                <li class="text-orange fs-4 me-4">#Bootstrap5</li>
+                                <li class="text-orange fs-4 me-4">#Visual Studio Code</li>
                                 <li class="text-orange fs-4 me-4">#Git/Github</li>
                                 <li class="text-orange fs-4 me-4">#Laravel</li>
                                 <li class="text-orange fs-4 me-4">#Vmwear</li>
                                 <li class="text-orange fs-4 me-4">#Ubuntu</li>
                                 <li class="text-orange fs-4 me-4">#Linux</li>
                                 <li class="text-orange fs-4 me-4">#GA/GTM</li>
+                                <li class="text-orange fs-4 me-4">#PageSpeed Insights</li>
                                 <li class="text-orange fs-4 me-4">#Figma</li>
                             </ul>
                         </dd>

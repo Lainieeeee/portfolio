@@ -57,7 +57,7 @@
                         日本ではWeb制作会社にて4年半、商業施設の新規事業部や生命保険会社の営業デジタル部に常駐し、ユーザー体験を重視したWebサイトの設計と開発に従事しました。
                     </p>
                     <p class="mb-4 lh-lg inview fadeinUp">
-                        台湾に帰国後は、高雄師範大学の語学学校で中国語を学び、台湾現地のWeb制作会社でショッピングサイトやコープレートサイト、
+                        台湾に帰国後は、高雄師範大学の語学学校で中国語を学び、台湾現地のWeb制作会社でショッピングサイトやコーポレートサイト、
                         ブランディングサイトなど複数のプロジェクトを手掛けました。
                         これらの経験を通じて、異文化におけるユーザーのニーズを理解し、対応するスキルを磨きました。
                     </p>
@@ -113,13 +113,15 @@
                                 <li class="text-orange fs-4 me-4">#SCSS</li>
                                 <li class="text-orange fs-4 me-4">#JavaScript/Jquery</li>
                                 <li class="text-orange fs-4 me-4">#Vite</li>
-                                <li class="text-orange fs-4 me-4">#Bootstrap</li>
+                                <li class="text-orange fs-4 me-4">#Bootstrap5</li>
+                                <li class="text-orange fs-4 me-4">#Visual Studio Code</li>
                                 <li class="text-orange fs-4 me-4">#Git/Github</li>
                                 <li class="text-orange fs-4 me-4">#Laravel</li>
                                 <li class="text-orange fs-4 me-4">#Vmwear</li>
                                 <li class="text-orange fs-4 me-4">#Ubuntu</li>
                                 <li class="text-orange fs-4 me-4">#Linux</li>
                                 <li class="text-orange fs-4 me-4">#GA/GTM</li>
+                                <li class="text-orange fs-4 me-4">#PageSpeed Insights</li>
                                 <li class="text-orange fs-4 me-4">#Figma</li>
                             </ul>
                         </dd>
@@ -144,6 +146,7 @@
                                 <li class="text-orange fs-4 me-4">#HTML5</li>
                                 <li class="text-orange fs-4 me-4">#SCSS</li>
                                 <li class="text-orange fs-4 me-4">#JavaScript/Jquery</li>
+                                <li class="text-orange fs-4 me-4">#Visual Studio Code</li>
                                 <li class="text-orange fs-4 me-4">#Wordpress(CMS)</li>
                                 <li class="text-orange fs-4 me-4">#楽天RMS(CMS)</li>
                                 <li class="text-orange fs-4 me-4">#Sitecore(CMS)</li>
@@ -152,6 +155,7 @@
                                 <li class="text-orange fs-4 me-4">#Illustrator</li>
                                 <li class="text-orange fs-4 me-4">#Photoshop</li>
                                 <li class="text-orange fs-4 me-4">#XAMPP</li>
+                                <li class="text-orange fs-4 me-4">#GA/GTM</li>
                             </ul>
                         </dd>
                     </dl>
