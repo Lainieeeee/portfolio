@@ -350,8 +350,8 @@
                                 JavaScript
                             </dt>
                             <dd class="d-inline-block text-start">
-                                <p class="mb-2">jQueryを使ったインタラクティブなエフェクト実装経験</p>
-                                <p>Viteを使用した高速で効率的なWeb開発に精通</p>
+                                <p class="mb-2">使用jQuery實現互動效果的經驗</p>
+                                <p>使用Vite進行快速高效率的網站開發</p>
                             </dd>
                         </dl>
                     </div>
@@ -362,9 +362,9 @@
                                 Web Layout
                             </dt>
                             <dd class="d-inline-block text-start">
-                                <p class="mb-2">HTML5、CSS3(SCSS)、Bootstrap5を用いたレスポンシブデザインの豊富な構築経験</p>
-                                <p class="mb-2">CSSアニメーションやトランジションの実装</p>
-                                <p>ページ速度最適化し、ユーザーエクスペリエンスを向上</p>
+                                <p class="mb-2">HTML5、CSS3(SCSS)及Bootstrap5進行響應式設計的豐富經驗</p>
+                                <p class="mb-2">實現CSS動畫和過渡效果的經驗</p>
+                                <p>頁面速度優化，提升使用者體驗</p>
                             </dd>
                         </dl>
                     </div>
@@ -375,9 +375,9 @@
                                 Adobe / Figma
                             </dt>
                             <dd class="d-inline-block text-start">
-                                <p class="mb-2">Illustratorを使ったデザイン販促ツールの制作</p>
-                                <p class="mb-2">Potoshopを使ったWeb広告やサイトのデザイン</p>
-                                <p>Figmaデザインを基に精密なコーディングを行い、デザインの意図を正確に反映</p>
+                                <p class="mb-2">使用Illustrator製作設計促銷工具的經驗</p>
+                                <p class="mb-2">使用Photoshop的Web廣告以及網站設計的經驗</p>
+                                <p>依據Figma設計進行精確編碼，準確反映設計意圖</p>
                             </dd>
                         </dl>
                     </div>
@@ -388,9 +388,9 @@
                                 其他
                             </dt>
                             <dd class="d-inline-block text-start">
-                                <p class="mb-2">Git / GitHubを使用したバージョン管理と複数エンジニアとの共同作業</p>
-                                <p class="mb-2">YouTrackを使用したチーム全体のタスクの進捗管理</p>
-                                <p>Ubuntu(LinuxOS)を使用した開発環境で、フロント開発やターミナル操作に精通</p>
+                                <p class="mb-2">使用Git / Github進行版本管理及與多位工程師的協同作業經驗</p>
+                                <p class="mb-2">使用YouTrack進行管理整個團隊的任務進度</p>
+                                <p>使用Ubuntu(LinuxOS)進行前端開發及terminal操作</p>
                             </dd>
                         </dl>
                     </div>

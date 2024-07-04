@@ -353,7 +353,7 @@
                             </dt>
                             <dd class="d-inline-block text-start">
                                 <p class="mb-2">jQueryを使ったインタラクティブなエフェクト実装経験</p>
-                                <p>Viteを使用した高速で効率的なWeb開発に精通</p>
+                                <p>Viteを使用した高速で効率的なWeb開発</p>
                             </dd>
                         </dl>
                     </div>
@@ -392,7 +392,7 @@
                             <dd class="d-inline-block text-start">
                                 <p class="mb-2">Git / GitHubを使用したバージョン管理と複数エンジニアとの共同作業</p>
                                 <p class="mb-2">YouTrackを使用したチーム全体のタスクの進捗管理</p>
-                                <p>Ubuntu(LinuxOS)を使用した開発環境で、フロント開発やターミナル操作に精通</p>
+                                <p>Ubuntu(LinuxOS)を使用した開発環境で、フロント開発やターミナル操作</p>
                             </dd>
                         </dl>
                     </div>
