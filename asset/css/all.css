@@ -13399,7 +13399,7 @@ mark, .mark {
 }
 .slickCenter02 .arrowBtn {
   position: absolute;
-  top: calc(50% - 0rem);
+  top: calc(50% - 3rem);
   z-index: 1;
   cursor: pointer;
 }

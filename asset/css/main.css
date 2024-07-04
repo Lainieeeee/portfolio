@@ -3,9 +3,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import "/node_modules/@fancyapps/ui/dist/fancybox/fancybox.css";
-@import "/node_modules/slick-slider/slick/slick.css";
-@import "/node_modules/slick-slider/slick/slick-theme.css";
+@import "../../node_modules/@fancyapps/ui/dist/fancybox/fancybox.css";
+@import "../../node_modules/slick-slider/slick/slick.css";
+@import "../../node_modules/slick-slider/slick/slick-theme.css";
 html, body, div, span, applet, object, iframe,
 h1,
 .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, blockquote, pre,
@@ -12997,7 +12997,7 @@ inview
 }
 .slickCenter02 .arrowBtn {
   position: absolute;
-  top: calc(50% - 0rem);
+  top: calc(50% - 3rem);
   z-index: 1;
   cursor: pointer;
 }
