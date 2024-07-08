@@ -409,7 +409,7 @@
     },
     {
         "id": 10,
-        "name": "撼動健身",
+        "name": "傑若威爾",
         "images": [
             "/asset/images/products/2024/gerald-well/pc/inedx.webp",
             "/asset/images/products/2024/gerald-well/pc/about.webp",
@@ -515,39 +515,6 @@
         "url": "https://wagikg.com.tw/"
     },
     {
-        "id": 13,
-        "name": "兆元設計 ZHAOYUAN",
-        "images": [
-            "/asset/images/products/2024/zhao-yuan/pc/index.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/about.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/articles.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/articles02.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/collections.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/collections02.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/contact.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/contact02.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/fraud.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/privacy.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/services.webp",
-            "/asset/images/products/2024/zhao-yuan/pc/services02.webp",
-
-            "/asset/images/products/2024/zhao-yuan/sp/index.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/about.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/articles.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/articles02.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/collections.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/collections02.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/contact.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/contact02.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/fraud.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/privacy.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/services.webp",
-            "/asset/images/products/2024/zhao-yuan/sp/services02.webp"
-        ],
-        "categories": ["台湾サイト","コーポレートサイト"],
-        "url": "https://demo-e.wagikgdemo.com.tw/"
-    },
-    {
         "id": 14,
         "name": "生命保険　商品紹介-01",
         "images": [
@@ -563,21 +530,8 @@
         "url": ""
     },
     {
-        "id": 15,
-        "name": "生命保険　商品紹介-02",
-        "images": [
-            "/asset/images/products/2020-2022/znavi/product02/pc/img02.webp",
-            "/asset/images/products/2020-2022/znavi/product02/pc/img01.webp",
-
-            "/asset/images/products/2020-2022/znavi/product02/sp/img02.webp",
-            "/asset/images/products/2020-2022/znavi/product02/sp/img01.webp"
-        ],
-        "categories": ["日本サイト","社内向けサイト","ランディングページ"],
-        "url": ""
-    },
-    {
         "id": 16,
-        "name": "生命保険　商品紹介-03",
+        "name": "生命保険　商品紹介-02",
         "images": [
             "/asset/images/products/2020-2022/znavi/product03/pc/img01.webp",
 
@@ -588,7 +542,7 @@
     },
     {
         "id": 17,
-        "name": "生命保険　商品紹介-04",
+        "name": "生命保険　商品紹介-03",
         "images": [
             "/asset/images/products/2020-2022/znavi/product04/pc/img01.webp",
 
@@ -599,7 +553,7 @@
     },
     {
         "id": 18,
-        "name": "生命保険　商品紹介-05",
+        "name": "生命保険　商品紹介-04",
         "images": [
             "/asset/images/products/2020-2022/znavi/product05/pc/img01.webp",
             "/asset/images/products/2020-2022/znavi/product05/pc/img02.webp",
@@ -612,7 +566,7 @@
     },
     {
         "id": 19,
-        "name": "生命保険　商品紹介-06",
+        "name": "生命保険　商品紹介-05",
         "images": [
             "/asset/images/products/2020-2022/znavi/product06/pc/img01.webp",
             "/asset/images/products/2020-2022/znavi/product06/pc/img02.webp",
@@ -643,7 +597,7 @@
     },
     {
         "id": 20,
-        "name": "生命保険　商品紹介-07",
+        "name": "生命保険　商品紹介-06",
         "images": [
             "/asset/images/products/2020-2022/znavi/product07/pc/img01.webp",
             "/asset/images/products/2020-2022/znavi/product07/pc/img02.webp",
