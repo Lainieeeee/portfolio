@@ -634,6 +634,7 @@
                             </dt>
                             <dd class="d-inline-block text-start">
                                 <p class="mb-2">Git / GitHubを使用したバージョン管理と複数エンジニアとの共同作業</p>
+                                <p class="mb-2">GA / GTMを使用したボタンクリック率・スクロール位置の解析とレポート作成</p>
                                 <p class="mb-2">YouTrackを使用したチーム全体のタスクの進捗管理</p>
                                 <p>Ubuntu(LinuxOS)を使用した開発環境で、フロント開発やターミナル操作</p>
                             </dd>

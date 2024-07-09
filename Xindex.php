@@ -643,6 +643,7 @@
                             </dt>
                             <dd class="d-inline-block text-start">
                                 <p class="mb-2">使用Git / Github進行版本管理及與多位工程師的協同作業經驗</p>
+                                <p class="mb-2">使用GA/GTM分析按鈕點擊率和捲動位置並生成報告</p>
                                 <p class="mb-2">使用YouTrack進行管理整個團隊的任務進度</p>
                                 <p>使用Ubuntu(LinuxOS)進行前端開發及terminal操作</p>
                             </dd>

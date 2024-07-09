@@ -24,9 +24,9 @@
 <!-- ogp -->
 <meta property="og:url" content="https://○○○○○○">
 <meta property="og:type" content="website">
-<meta property="og:title" content="portfolio">
+<meta property="og:title" content="YU-LIN's portfolio">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Document">
 <meta property="og:image" content="○○○○○○/asset/images/common/ogp.webp">
 <!-- title -->
-<title>portfolio</title>
+<title>YU-LIN's portfolio</title>
